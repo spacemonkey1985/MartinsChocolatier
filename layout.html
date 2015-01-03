@@ -1,0 +1,178 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="stylesheets/common.css" type="text/css" />
+<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="stylesheets/nivo-slider.css" type="text/css" media="screen" />
+<title>Martins Chocolatier</title>
+</head>
+
+<body>
+    
+    <div class="nav-bar">
+    </div>
+    
+    <div class="header">
+    	<div class="wrapper">
+        
+        	<img src="images/logo.png" alt="Martins Chocolatier" />
+            
+            <div class="cart">
+                <img src="images/cart.png" alt="Shopping basket" class="cart-icon" />
+				0 item(s) in My cart
+            </div>
+        
+        </div>
+    </div>
+    
+    <div class="menu">
+    	<div class="wrapper">
+            <ul>
+                <li><a href="#">Chocolate Boxes</a></li>
+                <li><a href="#">Chocolate Bars</a></li>
+                <li><a href="#">Loose Chocolates</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div class="rotator">
+    	<div class="rotator-image">
+        	<div id="slider" class="nivoSlider">
+        		<img src="images/rotator_01.png" alt="Chocolate Boxes" />
+                <img src="images/rotator_02.png" alt="Chocolate Bars" />
+            </div>
+        </div>
+    	<div class="rotator-text">
+        	<div id="slider2" class="nivoSlider">
+        		<img src="images/blank.png" alt="Chocolate Boxes" title="#htmlcaption1" />
+                <img src="images/blank.png" alt="Chocolate Bars" title="#htmlcaption2" />
+            </div>
+        	<div id="htmlcaption1" style="display:none;">
+            	<div class="caption-title">Chocolate Boxes</div>
+                <div class="caption-text">Luxury handmade chocolate selections from Martin's Chocolatier</div>
+                <div class="caption-subtext">Our themed chocolate selections make perfect gifts for chocolate lovers</div>
+                <div class="caption-link"><a href="#">SHOP ALL CHOCOLATE BOXES &raquo;</a></div>
+            </div>
+            <div id="htmlcaption2" style="display:none;">
+            	<div class="caption-title">Chocolate Bars</div>
+                <div class="caption-text">An unrivalled selection of the finest Belgium chocolate bars</div>
+                <div class="caption-subtext">The expertise of Martins Chocolatier is continued with our fantastic range of premium chocolate bars</div>
+                <div class="caption-link"><a href="#">SHOP ALL CHOCOLATE BARS &raquo;</a></div>
+            </div>
+        </div>
+        <div class="rotator-buttons">
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div class="corporate">
+    	<div class="wrapper">
+        	<div class="corporate-text">
+            	<div class="corporate-title">Corporate Chocolate Gifts</div>
+				<div class="corporate-body">If you're tired of the same old corporate gifts, and looking for new ideas, try the gift of corporate chocolates</div>
+				<div class="corporate-link"><a href="#">LEARN MORE &raquo;</a></div>
+            </div>
+            
+        	<img src="images/corporate_ad.png" alt="Corporate Gifts" />
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div class="selections">
+    	<div class="wrapper">
+        
+        	<div class="selections-title">
+            	<img src="images/selections_title.png" alt="Our Selections" />
+            </div>
+            
+            <div class="selections-items">
+                <div class="selections-item" style="margin-left: 115px;">
+                    <img src="images/selections_01.png" alt="Chocolate Boxes" />
+                    <div class="selections-cat-title">
+                    	Chocolate Boxes
+                    </div>
+                    <div class="selections-link">
+                    	<a href="#">SHOP ALL &raquo;</a>
+                    </div>
+                </div>
+                <div class="selections-item">
+                    <img src="images/selections_02.png" alt="Chocolate Bars" />
+                    <div class="selections-cat-title">
+                    	Chocolate Bars
+                    </div>
+                    <div class="selections-link">
+                    	<a href="#">SHOP ALL &raquo;</a>
+                    </div>
+                </div>
+                <div class="selections-item">
+                    <img src="images/selections_03.png" alt="Loose Chocolates" />
+                    <div class="selections-cat-title">
+                    	Loose Chocolates
+                    </div>
+                    <div class="selections-link">
+                    	<a href="#">SHOP ALL &raquo;</a>
+                    </div>
+                </div>
+        	</div>
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div class="footer">
+    	<div class="wrapper">
+            <div class="footer-box">
+            </div>
+            
+            <div class="footer-box-seperator"></div>
+            
+            <div class="footer-box">
+            </div>
+    
+            <div class="footer-box-seperator"></div>
+                    
+            <div class="footer-box">
+            </div>
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div class="footer-menu">
+    	<div class="wrapper">
+        	<div style="float:left; width:100%; overflow:hidden; position:relative;">
+                <ul>
+                    <li><a href="#" style="border-left: 1px solid #390000;">About Us</a></li>
+                    <li><a href="#">Enjoying Chocolate</a></li>
+                    <li><a href="#">Chocolate History</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider({
+			effect: 'fade',
+			pauseTime: 8000,
+			directionNav: false,
+			pauseOnHover: false,
+			controlNav: false
+		});
+		$('#slider2').nivoSlider({
+			effect: 'fade',
+			pauseTime: 8000,
+			directionNav: false,
+			pauseOnHover: false,
+			controlNav: false
+		});
+    });
+    </script>
+</body>
+</html>

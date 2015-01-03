@@ -1,0 +1,35 @@
+html, body { margin: 0;}
+a { text-decoration: underline; }
+a:focus, a:hover { text-decoration: none; color: black; }
+a { text-decoration: none; }
+
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox { margin: 0 0 18px 0; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox p.hiddenEmwaOOSAvailabilityMessage { display: none; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset { margin: 0; padding: 0; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset legend span { position: absolute; top: 0px; left: -9999px; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField { overflow: hidden; *zoom: 1; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField label, div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField .label { width: 20%; float: left; margin-right: 9px; text-align: right; font-weight: bold; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField select, div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField input, div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField textarea { float: left; width: 160px; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField dl.attributeList { margin: 0; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField dl.attributeList dt { float: left; width: 20%; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField dl.attributeList dd { margin-left: 20%; width: auto; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField dl.attributeList dt { text-align: right; font-weight: bold; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField dl.attributeList dt.availability { position: static; top: 0px; left: 0px; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.formField dl.attributeList dd.availability { margin-left: 22%; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.quantity input, div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.quantity select { width: 41px; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li.hiddenAvailability { display: none; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ol.formFields li#variationDropdown select#size_dropdown .emwaOption { color: red; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ul.buttonGroup.buyBoxActions { width: 100%; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ul.buttonGroup.buyBoxActions li.addToCart { margin-left: 22%; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ul.buttonGroup.buyBoxActions li.addToCart #addToCartErrMsg { display: none; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ul.buttonGroup.buyBoxActions li.addToAUWL div#auwl-container { margin-left: 22%; padding-top: 9px; zoom: 1; }
+div.com-amazon-webstore-ProductBuyBox-3 .buyBox form fieldset ul.buttonGroup.buyBoxActions li.primeCheckout div#prime-container { margin-left: 22%; padding-top: 9px; zoom: 1; }
+
+div.starter-amazon-com-fast-track-detail-pagelet-1 div.primePageletIFrame { color: black; font-family: Arial, Helvetica, sans-serif; font-size: 75%; line-height: 1.5em; }
+div.starter-amazon-com-fast-track-detail-pagelet-1 div.primePageletIFrame div.primeCustomerNameStyling { padding-bottom: 8px; }
+div.starter-amazon-com-fast-track-detail-pagelet-1 div.primePageletIFrame div.primeProductStyling { width: 240px; }
+div.starter-amazon-com-fast-track-detail-pagelet-1 div.primePageletIFrame div.primeProductStyling span.primeImage { width: 70px; float: left; margin-top: 8px; padding-bottom: 8px; }
+div.starter-amazon-com-fast-track-detail-pagelet-1 div.primePageletIFrame div.primeProductStyling span.primeProductMessage { float: left; width: 170px; padding-bottom: 8px; }
+div.starter-amazon-com-fast-track-detail-pagelet-1 div.primePageletIFrame div.primeProductStyling span.primeProductMessage strong.freeShipping { color: #4d4d4d; }
+div.starter-amazon-com-fast-track-detail-pagelet-1 div.primePageletIFrame div.fastTrackMessage { clear: both; padding-bottom: 8px; }
+div.starter-amazon-com-fast-track-detail-pagelet-1 div.primePageletIFrame div.fastTrackMessage strong.showColorText { color: green; }

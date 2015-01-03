@@ -1,0 +1,690 @@
+/* Default Top Nav is placed on all pages except OPL */
+body.orc #headerSlots {
+  z-index: 1000;
+  position: relative;
+  margin-bottom: 18px;
+  *zoom: 1; }
+body.orc #headerSlots:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  overflow: hidden;
+  visibility: hidden; }
+body.orc #headerSlots #header-1 div.starter-amazon-com-ImageWidget-1-latest div.imageWidget {
+  float: left;
+  top: 0;
+  left: 0; }
+body.orc #headerSlots #header-2 .signInMenu {
+  float: right;
+  margin-bottom: 9px;
+  min-width: 300px; }
+body.orc #headerSlots #header-4 {
+  clear: both;
+  float: left;
+  margin-left: 451px;
+  margin-top: 9px; }
+body.orc #headerSlots #header-7 {
+  float: right; }
+body.orc #headerSlots #header-7 .miniCart {
+  float: right; }
+body.orc #headerSlots #header-8 {
+  clear: both;
+  padding-top: 9px; }
+body.orc #headerSlots #header-9 div.starter-amazon-com-xinhaHTML-1 div#ec-div-spacer {
+  text-align: center; }
+
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 h1 {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 p.giftReturnWarning {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm {
+  overflow: hidden;
+  *zoom: 1;
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 9px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.enterOrderIDFieldSet {
+  padding: 9px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.enterOrderIDFieldSet legend span {
+  font-weight: bold;
+  padding: 9px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.enterOrderIDFieldSet ol.formFields {
+  padding-left: 9px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.enterOrderIDFieldSet ol.formFields li.formField label {
+  padding-right: 9px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.enterOrderIDFieldSet ol.formFields li.formField input {
+  padding-left: 9px;
+  width: 300px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm div.helpWithOrderID {
+  padding-left: 18px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.giftRecipientInformation {
+  border-top: 1px solid #cccccc;
+  margin: 0 9px 0 9px;
+  padding: 0 9px 0 9px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.giftRecipientInformation legend span {
+  font-weight: bold;
+  padding: 9px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.giftRecipientInformation ol.formFields {
+  padding-top: 9px;
+  padding-left: 18px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.giftRecipientInformation ol.formFields li.formField label {
+  padding-right: 9px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.giftRecipientInformation ol.formFields li.formField input {
+  padding-left: 9px;
+  width: 300px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm fieldset.giftRecipientInformation p.giftEmailCorrect {
+  padding-top: 9px;
+  padding-left: 18px; }
+div.com-amazon-webstore-ORCEnterGiftOrderID-1 form.enterOrderIDForm ul.continueButtonGroup {
+  padding-right: 9px;
+  padding-bottom: 9px;
+  float: right; }
+
+div.com-amazon-webstore-ORCLanding-1 {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-ORCLanding-1 h1 {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCLanding-1 div.returnOptions {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-ORCLanding-1 div.returnOptions form {
+  overflow: hidden;
+  *zoom: 1;
+  width: auto;
+  border: 1px solid #cccccc;
+  text-align: center; }
+div.com-amazon-webstore-ORCLanding-1 div.returnOptions form p.heading {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 9px;
+  border-bottom: 1px solid #cccccc;
+  font-size: 1.2em; }
+div.com-amazon-webstore-ORCLanding-1 div.returnOptions form p.description {
+  padding: 6px;
+  height: 18px; }
+div.com-amazon-webstore-ORCLanding-1 div.returnOptions form ul {
+  width: 100%;
+  padding-top: 5px; }
+div.com-amazon-webstore-ORCLanding-1 div.returnOptions form ul li {
+  float: center; }
+div.com-amazon-webstore-ORCLanding-1 div.returnOptions form.startReturn {
+  float: left;
+  width: 280.588px;
+  margin: 9px;
+  margin-left: 38.16px;
+  height: 164.483px; }
+div.com-amazon-webstore-ORCLanding-1 div.returnOptions form.startGiftReturn {
+  float: left;
+  width: 280.588px;
+  margin: 9px;
+  height: 164.483px; }
+div.com-amazon-webstore-ORCLanding-1 div.returnOptions form.manageReturn {
+  float: left;
+  width: 280.588px;
+  margin: 9px;
+  height: 164.483px; }
+div.com-amazon-webstore-ORCLanding-1 div.returnInstructionsHeading {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 9px;
+  padding-bottom: 9px; }
+div.com-amazon-webstore-ORCLanding-1 ol.returnInstructions {
+  border: 1px solid #cccccc;
+  border-right: none;
+  width: 924px;
+  padding-left: 10px;
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-ORCLanding-1 ol.returnInstructions li {
+  float: left;
+  width: 195px;
+  border-right: 1px solid #cccccc;
+  height: 115px;
+  padding: 10px 5px 0px 0px;
+  list-style-type: inside;
+  margin-left: 30px; }
+div.com-amazon-webstore-ORCLanding-1 ol.returnInstructions li div.instruction {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCLanding-1 ol.returnInstructions li div.description {
+  padding-top: 5px; }
+div.com-amazon-webstore-ORCLanding-1 div.policyText {
+  clear: both;
+  padding-top: 18px; }
+div.com-amazon-webstore-ORCLanding-1 div.policyText p {
+  text-align: center; }
+
+div.com-amazon-webstore-ORCManageReturns-1 {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-ORCManageReturns-1 h1 {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView {
+  border: 1px solid #cccccc;
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView div.rmaViewHeader h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 9px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView div.rmaViewHeader div.paginationContainer {
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: -18px;
+  margin-bottom: 18px;
+  position: static; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView div.rmaViewHeader div.paginationContainer ul.paginationLinks {
+  float: right;
+  margin-right: 18px;
+  margin-top: 18px; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView div.rmaViewHeader div.paginationContainer ul.paginationLinks li {
+  display: inline; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView ul.returnAuthorizationList {
+  list-style-type: none;
+  padding: 0 18px 0 18px; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView ul.returnAuthorizationList li.rma {
+  border-bottom: 1px solid #cccccc;
+  padding: 9px 0;
+  margin: 9px 0;
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView ul.returnAuthorizationList li.rma div.rmaInformation {
+  clear: both;
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView ul.returnAuthorizationList li.rma div.rmaInformation dl.rmaOverview {
+  width: 50%;
+  float: left; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView ul.returnAuthorizationList li.rma div.rmaInformation dl.rmaOverview dt {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView ul.returnAuthorizationList li.rma div.rmaInformation div.itemsView {
+  width: 50%;
+  float: left; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView ul.returnAuthorizationList li.rma div.rmaInformation div.itemsView p {
+  margin-bottom: 5px; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView ul.returnAuthorizationList li.rma div.rmaInformation div.itemsView ul.itemList li.item {
+  line-height: normal; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView ul.returnAuthorizationList li.rma form {
+  float: left; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView div.paginationContainer {
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: -18px;
+  margin-bottom: 18px;
+  position: static; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView div.paginationContainer ul.paginationLinks {
+  float: right;
+  margin-right: 18px;
+  margin-top: 18px; }
+div.com-amazon-webstore-ORCManageReturns-1 div.rmasView div.paginationContainer ul.paginationLinks li {
+  display: inline; }
+div.com-amazon-webstore-ORCManageReturns-1 form.backForm ul.backButtonGroup {
+  padding: 9px;
+  float: left; }
+
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable {
+  display: block; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcThankYouMessage {
+  display: none; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcThankYouMessage div.messageBox form.continueShopping {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcThankYouMessage div.messageBox form.continueShopping ul.buttonGroup {
+  float: right;
+  padding-right: 5px; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcPrintInstructionsDetail ol li {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels {
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcPrintLabelsHeader {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcPrintLabelsHeader h2 {
+  padding: 9px;
+  font-weight: bold; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcPrintLabelsHeader ul.buttonGroup {
+  position: relative;
+  right: 5px;
+  top: 1px;
+  padding-right: 5px; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels p.orcPrintLabelInstructions {
+  padding: 9px; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent {
+  padding-top: 9px;
+  padding-bottom: 18px; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent h3 {
+  font-weight: bold;
+  padding: 9px; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent ul.orcItemDetails {
+  padding-left: 9px;
+  padding-right: 9px;
+  list-style-type: none; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent ul.orcItemDetails li.itemDetail {
+  overflow: hidden;
+  *zoom: 1;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent ul.orcItemDetails li.itemDetail img.productImage {
+  padding-top: 9px;
+  float: left; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent ul.orcItemDetails li.itemDetail dl.attributeList {
+  width: 50%;
+  padding-top: 9px;
+  padding-left: 9px;
+  float: left; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent ul.orcItemDetails li.itemDetail dl.attributeList dt {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent ul.orcItemDetails li.itemDetail dl.attributeList dd {
+  width: auto; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent div.orcRMABarcodeBox p.amazonUseOnly {
+  text-align: center; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent div.orcRMABarcodeBox div.logoImage img {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 500px; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent div.orcRMABarcodeBox div.orcRMAImage p.rmaID {
+  text-align: center;
+  font-weight: bold; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent div.orcRMABarcodeBox div.orcRMAImage img.rmaImage {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent div.orcRMABarcodeBox ul {
+  list-style-type: none; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcReturnLabels div.orcRMAContent div.orcRMABarcodeBox ul li {
+  text-align: center; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcShippingLabelContent {
+  border: 1px solid #cccccc;
+  padding-top: 18px;
+  margin-top: 18px;
+  text-align: center; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcShippingLabelContent h3 {
+  font-weight: bold;
+  padding: 9px;
+  text-align: left; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcShippingLabelContent div.orcRMLBox {
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  margin-top: 9px;
+  margin-bottom: 18px;
+  border: 1px dashed #cccccc; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcShippingLabelContent div.orcRMLBox img.orcShippingLabelImage {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcShippingLabelContent div.orcRMLBox p.amazonUseOnly {
+  text-align: center; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcShippingLabelContent div.orcRMLBox img.orcRMAImage {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcShippingLabelContent div.orcRMLBox p.rmaID {
+  text-align: center;
+  font-weight: bold; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable div.orcShippingLabelContent div.orcRMLBox div.logoImage img {
+  padding-left: 300px; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable ul.buttonGroup.printLabelsButtonGroup {
+  float: right;
+  padding-top: 9px;
+  padding-right: 5px; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable {
+  display: none; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent {
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent h3 {
+  font-weight: bold;
+  padding: 9px; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent ul.orcItemDetails {
+  padding-left: 9px;
+  padding-right: 9px;
+  list-style-type: none; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent ul.orcItemDetails li.itemDetail {
+  overflow: hidden;
+  *zoom: 1;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent ul.orcItemDetails li.itemDetail img.productImage {
+  padding-top: 9px;
+  float: left; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent ul.orcItemDetails li.itemDetail dl.attributeList {
+  width: 50%;
+  padding-top: 9px;
+  padding-left: 9px;
+  float: left; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent ul.orcItemDetails li.itemDetail dl.attributeList dt {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent ul.orcItemDetails li.itemDetail dl.attributeList dd {
+  width: auto; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent div.orcRMABarcodeBox p.amazonUseOnly {
+  text-align: center; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent div.orcRMABarcodeBox div.orcRMAImage p.rmaID {
+  text-align: center;
+  font-weight: bold; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent div.orcRMABarcodeBox div.orcRMAImage img.rmaImage {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent div.orcRMABarcodeBox ul {
+  list-style-type: none; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent div.orcRMABarcodeBox ul li {
+  text-align: center; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcRMAContent div.orcRMABarcodeBox div.logoImage img {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 500px; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcShippingLabelContent {
+  page-break-before: always;
+  border: 1px solid #cccccc;
+  padding-top: 18px;
+  margin-top: 36px;
+  text-align: center; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcShippingLabelContent h3 {
+  font-weight: bold;
+  padding: 9px;
+  text-align: left; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcShippingLabelContent div.printLabelInstruction {
+  font-weight: bold;
+  padding: 9px;
+  text-align: left; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcShippingLabelContent div.orcRMLBox {
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  margin-top: 9px;
+  margin-bottom: 18px;
+  border: 1px dashed #cccccc; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcShippingLabelContent div.orcRMLBox img.orcShippingLabelImage {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcShippingLabelContent div.orcRMLBox p.amazonUseOnly {
+  text-align: center; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcShippingLabelContent div.orcRMLBox img.orcRMAImage {
+  clear: both;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcShippingLabelContent div.orcRMLBox p.rmaID {
+  text-align: center;
+  font-weight: bold; }
+div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable div.orcShippingLabelContent div.orcRMLBox div.logoImage img {
+  padding-left: 300px; }
+
+@media print {
+  div.com-amazon-webstore-SignInWidget-2, div.com-amazon-webstore-YourAccountBreadcrumbs-2 {
+    display: none; }
+
+  div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1, #innerWrapper {
+    width: 720px; }
+
+  div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_printable {
+    display: block; }
+
+  div.com-amazon-webstore-ORCPrintPackingSlipAndShipmentLabel-1 #orc_non-printable {
+    display: none; } }
+div.com-amazon-webstore-ORCReturnConfirmation-1 h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 9px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 0px; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox {
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox dl {
+  overflow: hidden;
+  *zoom: 1;
+  float: left; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox dl dt {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox dl dd {
+  width: auto; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox ul.itemList {
+  list-style-type: none;
+  padding-left: 9px;
+  padding-right: 9px; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox ul.itemList li.item {
+  overflow: hidden;
+  *zoom: 1;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox ul.itemList li.item img.productImage {
+  padding: 9px 9px 9px 9px;
+  float: left;
+  clear: left; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox ul.itemList li.item div.productDetails {
+  width: 70%;
+  padding-left: 9px;
+  float: left; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox ul.itemList li.item div.productDetails p {
+  padding-top: 5px;
+  font-weight: bold;
+  text-decoration: underline; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox ul.itemList li.item div.productDetails dl {
+  width: 70%; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm div.confirmationInformationBox ul.itemList li.item div.productDetails dl dt {
+  width: 25%;
+  font-weight: bold; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm ul.continueButtonGroup {
+  padding-top: 5px;
+  float: right; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.confirmationForm ul.continueButtonGroup li.continueButton button {
+  position: relative;
+  right: 5px; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.backForm ul.backButtonGroup {
+  padding-top: 5px;
+  float: left; }
+div.com-amazon-webstore-ORCReturnConfirmation-1 form.backForm ul.backButtonGroup li.backButton button {
+  position: relative;
+  left: 5px; }
+
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm dl {
+  margin-bottom: 5px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm dl dt {
+  width: 10%;
+  font-weight: bold; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm ul.viewOrderButtonGroup {
+  margin-bottom: 5px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 9px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 0px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList {
+  border: 1px solid #cccccc;
+  list-style-type: none;
+  padding-left: 9px;
+  padding-right: 9px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item {
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.notEligibleItemLayout {
+  overflow: hidden;
+  *zoom: 1;
+  padding-top: 9px;
+  padding-bottom: 9px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.notEligibleItemLayout div.product {
+  float: left;
+  padding-left: 60px;
+  padding-top: 9px;
+  padding-right: 9px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.notEligibleItemLayout div.notEligibleMessage {
+  float: left;
+  padding-left: 9px;
+  padding-top: 9px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.notEligibleItemLayout div.notEligibleMessage p.title {
+  padding-top: 5px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 5px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.eligibleItemLayout {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.eligibleItemLayout div.orcItemCheckBoxField {
+  float: left;
+  padding-left: 9px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.eligibleItemLayout div.product {
+  float: left;
+  padding-left: 9px;
+  padding-top: 9px;
+  padding-right: 9px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.eligibleItemLayout legend {
+  display: none; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.eligibleItemLayout ol.formFields {
+  overflow: hidden;
+  *zoom: 1;
+  padding-left: 9px;
+  padding-right: 9px;
+  float: left;
+  width: auto; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.eligibleItemLayout ol.formFields li.productTitle {
+  padding-top: 5px;
+  font-weight: bold;
+  text-decoration: underline;
+  padding-bottom: 5px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.eligibleItemLayout ol.formFields li.formField label {
+  padding-right: 5px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.eligibleItemLayout ol.formFields li.formField.orcReturnComment {
+  display: none; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm div.itemListContainer ul.itemList li.item div.eligibleItemLayout div.messageBox {
+  float: left;
+  width: auto;
+  padding-left: 9px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm ul.buttonGroup.chooseItemsButtonGroup {
+  float: right; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm ul.buttonGroup.chooseItemsButtonGroup li button {
+  position: relative;
+  right: 5px; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.selectItemAndReasonForm ul.buttonGroup.chooseItemsButtonGroup li.continueButton {
+  display: none; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.backForm ul.buttonGroup.backButtonGroup {
+  float: left; }
+div.com-amazon-webstore-ORCSelectItemAndReturnReason-1 form.backForm ul.buttonGroup.backButtonGroup li button {
+  position: relative;
+  left: 5px; }
+
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 h1 {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 form.enterOrderIDForm {
+  overflow: hidden;
+  *zoom: 1;
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 form.enterOrderIDForm h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 9px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 form.enterOrderIDForm fieldset.enterOrderIDFieldSet {
+  padding: 9px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 form.enterOrderIDForm fieldset.enterOrderIDFieldSet legend span {
+  font-weight: bold;
+  padding: 9px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 form.enterOrderIDForm fieldset.enterOrderIDFieldSet ol.formFields {
+  padding-left: 9px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 form.enterOrderIDForm fieldset.enterOrderIDFieldSet ol.formFields li.formField label {
+  padding-right: 9px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 form.enterOrderIDForm fieldset.enterOrderIDFieldSet ol.formFields li.formField input {
+  padding-left: 9px;
+  width: 300px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 form.enterOrderIDForm div.helpWithOrderID {
+  padding-left: 18px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 form.enterOrderIDForm ul.continueButtonGroup {
+  padding-right: 9px;
+  padding-bottom: 9px;
+  float: right; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView {
+  border: 1px solid #cccccc;
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView div.ordersViewHeader h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 9px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView div.ordersViewHeader div.paginationContainer {
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: -18px;
+  margin-bottom: 18px;
+  position: static; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView div.ordersViewHeader div.paginationContainer ul.paginationLinks {
+  float: right;
+  margin-right: 18px;
+  margin-top: 18px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView div.ordersViewHeader div.paginationContainer ul.paginationLinks li {
+  display: inline; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList {
+  list-style-type: none;
+  padding: 0 18px 0 18px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order {
+  border-bottom: 1px solid #cccccc;
+  padding: 9px 0;
+  margin: 9px 0;
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order dl.orderOverview {
+  width: 25%;
+  float: left; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order dl.orderOverview dt {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order div.orderItems {
+  width: 50%;
+  float: left; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order div.orderItems h3 {
+  font-weight: bold; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order div.orderItems ul.productTitleList {
+  list-style-type: none; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order div.orderItems ul.itemThumbnails {
+  list-style-type: none;
+  padding: 5px 0 5px 0; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order div.orderItems ul.itemThumbnails li {
+  display: inline; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order div.selectThisOrder {
+  float: left;
+  width: 25%; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order div.selectThisOrder ul.buttonGroup {
+  float: right; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView ul.orderList li.order div.selectThisOrder ul.buttonGroup li button {
+  position: relative;
+  right: 5px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView div.paginationContainer {
+  overflow: hidden;
+  *zoom: 1;
+  margin-top: -18px;
+  margin-bottom: 18px;
+  position: static; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView div.paginationContainer ul.paginationLinks {
+  float: right;
+  margin-right: 18px;
+  margin-top: 18px; }
+div.com-amazon-webstore-ORCSelectOrderFromHistory-1 div.ordersView div.paginationContainer ul.paginationLinks li {
+  display: inline; }

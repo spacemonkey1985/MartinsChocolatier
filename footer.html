@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="google-translate-customization" content="5537b7d27b0d445-cc113ac5db8147e8-g1f49ccb9b95a3fb6-1d"></meta>
+<link rel="stylesheet" href="stylesheets/common.css" type="text/css" />
+<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="stylesheets/nivo-slider.css" type="text/css" media="screen" />
+<title>Martins Chocolatier</title>
+<script type="text/javascript">
+	function sendForm(){
+		var form = document.forms[0];
+		var email = document.getElementById('email');
+		
+		var complete = 0;
+		
+		if(email.value != ''){
+			
+			var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+			
+			if (!filter.test(email.value)) {
+				email.value = 'Please enter a valid email';
+			}
+			else{
+				complete += 1;
+			}
+		}
+		else{
+			email.value = 'Please enter a valid email';
+		}
+		
+		if(complete == 1){
+			form.submit();
+		}
+	}
+</script>
+</head>
+
+<body>
+    
+    <div class="footer">
+    	<div class="wrapper">
+            <div class="footer-box">
+            	<div class="footer-text1">Sign up to our</div>
+                <div class="footer-text2">mailing list</div>
+                <div class="clear" style="height: 10px; _height: 0px; *height: 0px;"></div>
+                <form method="post" action="footer.php">
+                	
+                    <input name="email" id="email" type="text" style="margin-top: 10px; line-height: 30px; height: 30px; width: 230px; border: 1px solid #c3996b; background: none; color: #fff;" value="your email address" /><a href="javascript: sendForm();"><img src="images/submit_btn.png" alt="Send" style="vertical-align: middle; padding-bottom: 1px;" /></a>
+                
+                </form>
+            </div>
+            
+            <div class="footer-box-seperator"></div>
+            
+            <div class="footer-box">
+            	<div class="footer-text1">Why not join our</div>
+                <div class="footer-text2">tasting club?</div>
+                <a href="http://www.martinschocolatier.co.uk/info/Enjoying_Chocolate" target="_parent"><img src="images/more.png" alt="More" style="margin-top: 20px;" /></a>
+            </div>
+    
+            <div class="footer-box-seperator"></div>
+                    
+            <div class="footer-box">
+            	<div class="footer-text1">Connect with<span class="footer-text3">us</span></div>
+                
+                <img src="images/social_media.png" alt="Social Media" style="margin-left: 30px;" usemap="#sn" />
+                <map name="sn">
+                	<area shape="rect" coords="0,0,90,80" href="http://www.facebook.com/mychocolateclub" target="_new" />
+                    <area shape="rect" coords="90,0,180,80" href="https://twitter.com/MyChocolateClub" target="_new" />
+                </map>
+            </div>
+        </div>
+    </div>
+    
+    <div class="clear"></div>
+    
+    <div class="footer-menu">
+    	<div class="wrapper">
+        	<div style="float:left; width:100%; overflow:hidden; position:relative;">
+                <ul>
+                    <li><a href="http://www.martinschocolatier.co.uk/info/About_Us" style="border-left: 1px solid #390000;" target="_parent">About Us</a></li>
+                    <li><a href="http://www.martinschocolatier.co.uk/info/Enjoying_Chocolate" target="_parent">Join Our Tasting Clubs</a></li>
+                    <li><a href="http://www.martinschocolatier.co.uk/info/Chocolate_History" target="_parent">Chocolate History</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

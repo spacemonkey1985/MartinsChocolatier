@@ -1,0 +1,5 @@
+<div class="pageHeading">Chocolate Boxes</div> 
+  <p><strong>Luxury handmade chocolate selections from Martin's Chocolatier.</strong></p> 
+  <p>Our themed chocolate selections make perfect gifts for chocolate lovers. We have sourced only the finest luxury chocolates from around the world to bring you a menu that's exotic, exciting and unique. </p> 
+  <p>For lovers of boozy chocolates there's our Champagne truffle collection. For fruit lovers, we have a frivolously fruity selection. Dark chocolate enthusiasts can enjoy a luxury selection that's entirely devoted to their tastes, as can lovers of milk and white chocolate.</p> 
+  <p style="margin-bottom: 0pt; margin-top: 0pt;">Here you can browse our handmade chocolate selections and find the perfect gift for your favourite chocolate lover, or the perfect treat for yourself! <br /></p>

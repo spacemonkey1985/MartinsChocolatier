@@ -1,0 +1,16 @@
+<div class="custom-footer">
+    	<div class="custom-wrapper">
+            <div class="footer-box">
+            </div>
+            
+            <div class="footer-box-seperator"></div>
+            
+            <div class="footer-box">
+            </div>
+    
+            <div class="footer-box-seperator"></div>
+                    
+            <div class="footer-box">
+            </div>
+        </div>
+    </div>

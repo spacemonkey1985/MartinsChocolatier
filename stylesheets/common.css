@@ -1,0 +1,558 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #ffffff;
+	overflow-x: hidden;
+}
+img {
+	border: none;
+}
+textarea {
+	font-family: Arial, Helvetica, sans-serif;
+}
+b {
+	color: #c3996b;
+	font-weight: normal;
+}
+a {
+	text-decoration: none;
+	color: #c3996b;
+}
+a:hover {
+	text-decoration: underline;
+	color: #c3996b;
+}
+a:visited {
+	text-decoration: none;
+	color: #c3996b;
+}
+ul{
+	list-style: none;
+}
+*ul{
+	list-style: none;
+	margin-left: 0px;
+}
+_ul{
+	list-style: none;
+	margin-left: 0px;
+}
+ul li{
+	background-image: url('../images/bullet.png');
+	background-repeat: no-repeat;
+	padding-left: 15px;
+	padding-bottom: 5px
+}
+h1 {
+	float:left; 
+   	clear:left;
+	font-size: 32px;
+	color: #390000;
+	margin-bottom: 20px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+h2 {
+	font-size: 26px;
+	color: #390000;
+	margin-top: 0px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+h3 {
+	font-size: 22px;
+	color: #390000;
+	margin-top: -10px;
+	font-weight: lighter;
+}
+h4 {
+	font-size: 14px;
+	color: #5edbe7;
+	margin-top: 40px;
+}
+
+.wrapper {
+	width: 980px;
+	height: 100%;
+	text-align: left;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	background: none;
+}
+
+/* Nav bar */
+
+.nav-bar {
+	height: 30px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: #c3996b;
+}
+
+/* End nav bar */
+
+/* Header */
+
+.header {
+	height: 100px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: #ffffff;
+}
+
+.cart {
+	height: 80px;
+	width: 200px;
+	float: right;
+	background: url('../images/bullet.png') repeat-y 0 0px;
+	margin-top: 10px;
+	line-height: 80px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 11px;
+	padding-left: 30px;
+}
+.cart-icon {
+	float: left;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+/* End header */
+
+/* Menu */
+
+.menu {
+	height: 50px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: #ffffff;
+	border-top: solid 1px #c3996b;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+.menu ul {
+	position: relative;
+	float: left;
+	padding: 0px;
+	margin-top: 0px;
+}
+.menu li{
+	background-image: none;
+	display: inline;
+	height: 44px;
+	line-height: 44px;
+	min-height: 44px;
+}
+.menu ul li a{
+	float: left;
+	text-decoration: none;
+	color: #5a5a5a;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 16px;
+	text-decoration: none;
+	border-top: 6px solid #ffffff;
+}
+.menu ul li a:visited{
+	color: #5a5a5a;
+	text-decoration: none;
+	border-top: 6px solid #ffffff;
+}
+.menu ul li a:hover{
+	color: #5a5a5a;
+	text-decoration: none;
+	border-top: 6px solid #c3996b;
+}
+.menu .current{
+	float: left;
+	text-decoration: none;
+	border-top: 6px solid #c3996b;
+	color: #5a5a5a;
+	font-size: 16px;
+	height: 44px;
+}
+
+/* End menu */
+
+/* Ad rotator */
+
+.rotator {
+	height: 500px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: #ffffff;
+}
+.rotator-image {
+	height: 465px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: #ffffff;
+	z-index: 0;
+	overflow: hidden;
+	position: relative;
+	left: 0px;
+}
+.rotator-text {
+	height: 170px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: url('../images/rotator_text_bg.png') repeat;
+	margin-top: -170px;
+	z-index: 1;
+	position: relative;
+}
+.rotator-buttons {
+	height: 35px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: #390000;
+	z-index: 2;
+	position: relative;
+}
+.caption {
+	display: none;
+}
+.caption-title {
+	margin-top: 15px;
+	font-size: 15px;
+	font-style: italic;
+	color: #c3996b;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+.caption-text {
+	margin-top: 20px;
+	font-size: 24px;
+	color: #ffffff;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+.caption-subtext {
+	margin-top: 15px;
+	font-size: 16px;
+	color: #ffffff;
+	font-style: italic;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+.caption-link {
+	margin-top: 10px;
+	font-size: 12px;
+	color: #ffffff;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+
+/* End Ad rotator */
+
+/* Corporate ad */
+
+.corporate {
+	height: 485px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: #ffffff;
+	overflow: hidden;
+}
+.corporate-text {
+	height: 485px;
+	width: 330px;
+	text-align: center;
+	background: url('../images/corporate_text_bg.png') no-repeat;
+	overflow: hidden;
+	float: left;
+}
+.corporate-title {
+	margin-top: 130px;
+	font-size: 25px;
+	color: #390000;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	width: 175px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.corporate-body {
+	margin-top: 25px;
+	font-size: 12px;
+	color: #5a5a5a;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	width: 175px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.corporate-link {
+	margin-top: 10px;
+	font-size: 12px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	width: 175px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.corporate img {
+	float: left;
+}
+
+/* End Corporate ad */
+
+/* Selections */
+
+.selections {
+	height: 490px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: url('../images/large_bg.png') no-repeat;
+	background-position: center;
+	overflow: hidden;
+}
+.selections-title {
+	margin-top: 50px;
+	font-size: 25px;
+	color: #ffffff;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+}
+.selections-items {
+	width: 980px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.selections-item {
+	float: left;
+	position: relative;
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+.selections-cat-title {
+	margin-top: 30px;
+	font-size: 16px;
+	color: #ffffff;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	text-align: center;
+	text-shadow: 2px 2px #5a5a5a;
+}
+.selections-link {
+	margin-top: 25px;
+	font-size: 16px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	width: 175px;
+	margin-left: auto;
+	margin-right: auto;
+	text-shadow: 2px 2px #5a5a5a;
+}
+
+/* End Selections */
+
+/* Main */
+
+.main {
+	min-height: 780px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: #f7f7f7;
+	border-top: solid 1px #c3996b;
+	font-size: 11px;
+	color: #8e817e;
+}
+.product-description {
+	position: relative;
+	float: left;
+	width: 360px;
+	padding: 20px;
+	text-align: left;
+}
+.info {
+	font-size: 16px;
+	padding-left: 10px;
+	font-weight: lighter;
+}
+.product-image {
+	position: relative;
+	float: left;
+	width: 455px;
+	margin-top: 120px;
+	text-align: left;
+}
+.product-thumbs {
+	position: relative;
+	float: left;
+	width: 125px;
+	margin-top: 120px;
+	text-align: center;
+}
+.product-thumbs img {
+	margin-bottom: 30px;
+}
+.product-offer {
+	position: relative;
+	float: left;
+	width: 293px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 14px;
+	color: #390000;
+}
+.product-offer img {
+	margin-bottom: 20px;
+}
+
+.tag-line1 {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	background: #fff;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 28px;
+	color: #390000;
+}
+.tag-line2 {
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	background: #fff;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 11px;
+	color: #5a5a5a;
+}
+.tag-line3 {
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	background: #75372c;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 14px;
+	color: #ffffff;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.offer {
+	float: left;
+	width: 290px;
+	height: 250px;
+	background: url('../images/offer_bg.png') no-repeat;
+	text-align: center;
+	padding: 5px;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 14px;
+	color: #5a5a5a;
+}
+
+/* End main */
+
+/* Footer */
+
+.footer {
+	height: 170px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: #75372c;
+	border-top: solid 15px #c3996b;
+}
+.footer-box {
+	float: left;
+	width: 280px;
+	height: 130px;
+	padding: 20px;
+}
+.footer-box-seperator {
+	float: left;
+	width: 10px;
+	height: 130px;
+	margin-top: 20px;
+	background: url('../images/bullet2.png') repeat-y 0 0px;
+}
+.footer-text1 {
+	color: #c3996b;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 28px;
+	margin-top: -10px;
+}
+.footer-text2 {
+	color: #ffffff;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 36px;
+	font-weight: bold;
+	margin-left: 30px;
+	margin-top: -10px;
+}
+.footer-text3 {
+	color: #ffffff;
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+/* End footer */
+
+/* Footer menu */
+
+.footer-menu {
+	height: 63px;
+	width: 100%;
+	min-width: 980px;
+	text-align: center;
+	background: #390000;
+	padding-top: 27px;
+}
+
+.footer-menu ul {
+	clear: left;
+	float: left;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	left: 25%;
+	text-align: center;
+}
+.footer-menu li{
+	background-image: none;
+	display: inline;
+	height: 70px;
+	line-height: 16px;
+	min-height: 70px;
+}
+.footer-menu ul li a{
+	float: left;
+	text-decoration: none;
+	color: #75372c;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 16px;
+	text-decoration: none;
+	border-left: 1px solid #c3996b;
+}
+.footer-menu ul li a:visited{
+	color: #75372c;
+	text-decoration: none;
+}
+.footer-menu ul li a:hover{
+	color: #c3996b;
+	text-decoration: none;
+}
+
+/* End footer menu*/
+
+.clear {
+	clear: both;
+}

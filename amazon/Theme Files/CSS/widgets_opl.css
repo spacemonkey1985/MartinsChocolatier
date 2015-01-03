@@ -1,0 +1,3040 @@
+/*
+Webstore's CSS is divided into three sets of files:
+- Those that set general styles for the entire website
+- Those that detmine the styles for individual pages
+- Those that determine styles for widgets
+
+
+For general styles, the base.css file is used.
+
+For individual page styles, the page_overrides.css is used.
+
+For widgets, one of two different configurations is used:
+
+- Configuration 1 uses the widgets.css file for all pages
+- Configuration 2 uses a set of three files:
+     - widgets_master.css - loaded for all pages
+     - widgets_opl.css - used in addition to widgets_master.css for all Checkout pages
+     - widgets_ya.css - used in addition to widgets_master.css for Your Account pages
+
+Which widget file configuration you use is determined by your Webstore version and is
+exclusive of the other configuration.
+
+To determine which configuration your Webstore uses:
+ 1. Log into Seller Central
+ 2. Navigate to Store Design > Merchandising & Layout
+ 3. Expand the Master Pages set of pages at the bottom of the Pages navigation on the left
+ 4. Highlight the My Webstore page
+ 5. Click Properties at the upper right of the page
+ 6. In the Page Properties dialog, click the CSS and Script Links link
+ 7. Under the Link CSS files: window, examine the Local CSS
+
+If the widgets.css file is present, your site is using Configuration 1.
+If widges_master.css is present, your site is using Configuration 2.
+
+For additional information on Webstore CSS, please see the Seller Central Help
+topic at:
+https://sellercentral.amazon.com/gp/help/200904160 (for US sites) or
+https://sellercentral-europe.amazon.com/gp/help/200904770 (for UK sites).
+
+*/
+
+div.com-amazon-webstore-OrderPipelineAccountSetup-2 fieldset.createPassword {
+  padding: 0 5px; }
+div.com-amazon-webstore-OrderPipelineAccountSetup-2 fieldset.createPassword legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineAccountSetup-2 fieldset.createPassword ol.formFields li.formField label {
+  width: 13%;
+  float: left;
+  display: block;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineAccountSetup-2 fieldset.createPassword ol.formFields li.formField input[type=password], div.com-amazon-webstore-OrderPipelineAccountSetup-2 fieldset.createPassword ol.formFields li.formField input.password {
+  width: 200px; }
+
+div.com-amazon-webstore-OrderPipelineBillingAddressDisplay-3 {
+  border: 1px solid #cccccc;
+  padding: 5px;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineBillingAddressDisplay-3 div.confirmBillingAddressSection {
+  position: relative;
+  margin: 0 5px; }
+div.com-amazon-webstore-OrderPipelineBillingAddressDisplay-3 div.confirmBillingAddressSection span.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineBillingAddressDisplay-3 div.confirmBillingAddressSection div.briefBillingAddress {
+  margin: 0 5px; }
+div.com-amazon-webstore-OrderPipelineBillingAddressDisplay-3 div.confirmBillingAddressSection ul.buttonGroup {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+div.com-amazon-webstore-OrderPipelineBillingAddressDisplay-4 {
+  border: 1px solid #cccccc;
+  padding: 5px;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineBillingAddressDisplay-4 div.confirmBillingAddressSection {
+  position: relative;
+  margin: 0 5px; }
+div.com-amazon-webstore-OrderPipelineBillingAddressDisplay-4 div.confirmBillingAddressSection span.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineBillingAddressDisplay-4 div.confirmBillingAddressSection div.briefBillingAddress {
+  margin: 0 5px; }
+div.com-amazon-webstore-OrderPipelineBillingAddressDisplay-4 div.confirmBillingAddressSection ul.buttonGroup {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+div.com-amazon-webstore-OrderPipelineCartSummary-1 {
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineCartSummary-1 div.cartItemsContainer dl.cartSubtotal {
+  padding-left: 5.143px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineCartSummary-1 div.cartItemsContainer dl.cartSubtotal dt.cartSubtotal span.cartSubtotal {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCartSummary-1 div.cartItemsContainer div.cartItems {
+  overflow: auto;
+  height: 400px; }
+div.com-amazon-webstore-OrderPipelineCartSummary-1 div.cartItemsContainer div.cartItems ul.productList {
+  margin-left: 0;
+  margin-right: 0; }
+div.com-amazon-webstore-OrderPipelineCartSummary-1 div.cartItemsContainer div.cartItems ul.productList li.product {
+  display: block;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineCartSummary-1 div.cartItemsContainer div.cartItems ul.productList img.productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineCartSummary-1 div.cartItemsContainer div.cartItems ul.productList div.productDetails {
+  width: 155px;
+  float: left;
+  margin-left: 9px; }
+div.com-amazon-webstore-OrderPipelineCartSummary-1 div.cartItemsContainer div.cartItems ul.productList div.productDetails p.title {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCartSummary-1 div.cartItemsContainer div.cartItems ul.productList div.productDetails dl.attributeList dt {
+  font-weight: bold; }
+
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product {
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+  width: 100%;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails {
+  width: 40%; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails div.setQuantity {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  padding-left: 100px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails div.setQuantity label {
+  display: inline;
+  font-weight: bold;
+  width: auto;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails div.setQuantity input {
+  width: 50px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails div.messageBox {
+  margin-top: 9px;
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-3 form.itemQuantities fieldset.editItemQuantities ul.formControls {
+  float: right; }
+
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product {
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+  width: 100%;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails {
+  width: 40%; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails div.setQuantity {
+  position: absolute;
+  top: 0;
+  left: 45%;
+  padding-left: 100px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails div.setQuantity label {
+  display: inline;
+  font-weight: bold;
+  width: auto;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails div.setQuantity input {
+  width: 50px; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities ol.productList.modifyQuantities li.product div.productDetails div.messageBox {
+  margin-top: 9px;
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineChangeQuantities-4 form.itemQuantities fieldset.editItemQuantities ul.formControls {
+  float: right; }
+
+div.com-amazon-webstore-OrderPipelineCheckoutNavigationBar-1 div.lapNav {
+  float: right; }
+div.com-amazon-webstore-OrderPipelineCheckoutNavigationBar-1 div.lapNav div.lapCheckoutNavigationText .lapNavigationText {
+  float: left;
+  width: 82px;
+  font-size: 14px; }
+div.com-amazon-webstore-OrderPipelineCheckoutNavigationBar-1 div.lapNav div.lapCheckoutNavigationText .signIn {
+  clear: left; }
+div.com-amazon-webstore-OrderPipelineCheckoutNavigationBar-1 div.lapNav div.lapCheckoutNavigationText .placeOrder {
+  width: 138px; }
+
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 {
+  margin-bottom: 18px;
+  /* Styling Expiration Date elements (Shows up in Existing and New Card section) */ }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 div.acceptedCardList {
+  margin: 0 5px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 div.acceptedCardList ul.itemList {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 div.acceptedCardList ul.itemList li {
+  float: left;
+  margin-right: 7px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 table.existingCreditCardList {
+  padding: 0 5px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 table.existingCreditCardList thead tr th {
+  padding: 0;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 table.existingCreditCardList tbody tr td {
+  width: 25%;
+  padding: 0;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 table.existingCreditCardList tbody tr td.creditCardType input.radio {
+  margin-top: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 table.existingCreditCardList tbody tr td.creditCardType label {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 table.existingCreditCardList tbody tr td.creditCardType .formHelp {
+  margin: 0 0 0 3px;
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 table.existingCreditCardList tbody tr td.creditCardExpirationDate fieldset.updateExpirationDate legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard {
+  margin: 0 5px;
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard {
+  overflow: hidden;
+  *zoom: 1;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.formField {
+  float: left;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.formField label {
+  display: block;
+  width: auto;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.formField input {
+  display: block;
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.newCreditCard {
+  width: 25%;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.newCreditCard input.radio {
+  position: absolute;
+  top: 18px;
+  left: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.newCreditCard label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardIssuer {
+  width: 0px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardIssuer label {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardIssuer select {
+  position: absolute;
+  top: 18px;
+  left: 25px;
+  width: 150px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardNumber, div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.cardHoldersName {
+  width: 25%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardNumber input, div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.cardHoldersName input {
+  width: 180px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardExpirationDate {
+  width: 25%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardExpirationDate fieldset.updateExpirationDate {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.updateExpirationDate {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.updateExpirationDate legend span {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.updateExpirationDate ol.formFields li {
+  float: left;
+  padding-right: 5px;
+  width: auto; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.updateExpirationDate ol.formFields li label {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.updateExpirationDate ol.formFields li select.expMonth {
+  width: 50px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-2 fieldset.updateExpirationDate ol.formFields li select.expYear {
+  width: 55px; }
+
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 {
+  margin-bottom: 18px;
+  /* Styling Expiration Date elements (Shows up in Existing and New Card section) */ }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 div.acceptedCardList {
+  margin: 0 5px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 div.acceptedCardList ul.itemList {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 div.acceptedCardList ul.itemList li {
+  float: left;
+  margin-right: 7px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount {
+  padding: 0 5px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount thead tr th {
+  padding: 2px;
+  margin: 0;
+  vertical-align: middle; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount tbody tr td {
+  width: 25%;
+  padding: 2px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount tbody tr td.bankRoutingNumber input.radio {
+  margin-top: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount tbody tr td.bankRoutingNumber label {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount tbody tr td.bankRoutingNumber .formHelp {
+  margin: 0 0 0 3px;
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount tbody tr td select {
+  width: 75%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount tbody tr td input.text {
+  width: 75%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount tbody tr td.bankRoutingNumber, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount tbody tr td.bankAccountNumber, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount tbody tr td.bankAccountHolderName, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.newBankAccount tbody tr td.bankAccountCountry {
+  width: 20%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingBankAccountList {
+  padding: 0 5px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingBankAccountList thead tr th {
+  padding: 2px;
+  margin: 0;
+  vertical-align: middle; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingBankAccountList tbody tr td {
+  width: 25%;
+  padding: 2px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingBankAccountList tbody tr td.bankName input.radio {
+  margin-top: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingBankAccountList tbody tr td.bankName label {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingBankAccountList tbody tr td.bankName .formHelp {
+  margin: 0 0 0 3px;
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingBankAccountList tbody tr td.bankName, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingBankAccountList tbody tr td.bankAccountNumber, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingBankAccountList tbody tr td.bankAccountHolderName, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingBankAccountList tbody tr td.bankAccountCountry {
+  width: 20%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList {
+  padding: 0 5px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList thead tr th {
+  padding: 0;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList tbody tr td {
+  width: 25%;
+  padding: 0;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList tbody tr td.creditCardType input.radio {
+  margin-top: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList tbody tr td.creditCardType label {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList tbody tr td.creditCardType .formHelp {
+  margin: 0 0 0 3px;
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList tbody tr td.creditCardExpirationDate fieldset.updateExpirationDate legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList.hasStartDateAndIssueNumber tr td.creditCardType, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList.hasStartDateAndIssueNumber tr td.creditCardNumber, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList.hasStartDateAndIssueNumber tr td.cardHoldersName {
+  width: 20%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList.hasStartDateAndIssueNumber tr td.creditCardExpirationDate {
+  width: 15%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList.hasStartDateAndIssueNumber tr td.creditCardStartDate {
+  width: 15%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList.hasStartDateAndIssueNumber tr td.creditCardStartDate fieldset.ccStartDate legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 table.existingCreditCardList.hasStartDateAndIssueNumber tr td.creditCardIssueNumber {
+  width: 10%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard {
+  margin: 0 5px;
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard {
+  overflow: hidden;
+  *zoom: 1;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.formField {
+  float: left;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.formField label {
+  display: block;
+  width: auto;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.formField input {
+  display: block;
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.newCreditCard {
+  width: 25%;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.newCreditCard input.radio {
+  position: absolute;
+  top: 18px;
+  left: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.newCreditCard label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardIssuer {
+  width: 0px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardIssuer label {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardIssuer select {
+  position: absolute;
+  top: 18px;
+  left: 25px;
+  width: 150px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardNumber, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.cardHoldersName {
+  width: 25%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardNumber input, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.cardHoldersName input {
+  width: 180px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardExpirationDate {
+  width: 25%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard li.creditCardExpirationDate fieldset.updateExpirationDate {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard.hasStartDateAndIssueNumber li.creditCardIssuer select {
+  width: 150px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard.hasStartDateAndIssueNumber li.newCreditCard, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard.hasStartDateAndIssueNumber li.creditCardNumber, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard.hasStartDateAndIssueNumber li.cardHoldersName {
+  width: 20%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard.hasStartDateAndIssueNumber li.creditCardExpirationDate, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard.hasStartDateAndIssueNumber li.creditCardStartDate {
+  width: 15%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard.hasStartDateAndIssueNumber li.creditCardStartDate fieldset.ccStartDate {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard.hasStartDateAndIssueNumber li.creditCardIssueNumber {
+  width: 10%; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.newCreditCard ol.payWithNewCreditCard.hasStartDateAndIssueNumber li.creditCardIssueNumber input {
+  width: 50px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.updateExpirationDate, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.ccStartDate {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.updateExpirationDate legend span, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.ccStartDate legend span {
+  position: relative;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.updateExpirationDate ol.formFields li, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.ccStartDate ol.formFields li {
+  float: left;
+  padding-right: 5px;
+  width: auto; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.updateExpirationDate ol.formFields li label, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.ccStartDate ol.formFields li label {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.updateExpirationDate ol.formFields li select.expMonth, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.ccStartDate ol.formFields li select.expMonth {
+  width: 50px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.updateExpirationDate ol.formFields li select.expYear, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.ccStartDate ol.formFields li select.expYear {
+  width: 55px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.updateExpirationDate ol.formFields li.startMonth select, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.ccStartDate ol.formFields li.startMonth select {
+  width: 50px; }
+div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.updateExpirationDate ol.formFields li.startYear select, div.com-amazon-webstore-OrderPipelineCreditCardSelect-3 fieldset.ccStartDate ol.formFields li.startYear select {
+  width: 55px; }
+
+fieldset.newSvsGiftCard {
+  margin: 0 5px;
+  clear: both; }
+fieldset.newSvsGiftCard div.styleNeedHelpLocating {
+  padding-bottom: 10px;
+  cursor: pointer;
+  color: darkBlue; }
+fieldset.newSvsGiftCard div.gcHelpText {
+  width: 500px;
+  border: 1px solid black;
+  display: none; }
+fieldset.newSvsGiftCard div.gcHelpText div.gcHelpTextHeader {
+  text-align: center;
+  margin: 15px; }
+fieldset.newSvsGiftCard div.gcHelpText div.gcHelpNmbrAndBody {
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  border: 1px solid black;
+  margin: 15px; }
+fieldset.newSvsGiftCard div.gcHelpText div.gcHelpNmbrAndBody div.gcHelpTextNumberFormat {
+  font-weight: bold;
+  text-align: center;
+  margin: 15px; }
+fieldset.newSvsGiftCard div.gcHelpText div.gcHelpNmbrAndBody div.gcHelpTextBody {
+  margin: 15px; }
+fieldset.newSvsGiftCard legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+fieldset.newSvsGiftCard div.sectionHeader {
+  font-weight: bold;
+  margin-bottom: 12px; }
+fieldset.newSvsGiftCard ol.payWithNewGiftCard {
+  overflow: hidden;
+  *zoom: 1;
+  position: relative;
+  list-style-type: none; }
+fieldset.newSvsGiftCard ol.payWithNewGiftCard li.formField {
+  float: left;
+  padding-right: 16px; }
+fieldset.newSvsGiftCard ol.payWithNewGiftCard li.formField label {
+  display: block;
+  width: auto;
+  font-weight: bold; }
+fieldset.newSvsGiftCard ol.payWithNewGiftCard li.formField input {
+  display: block;
+  width: auto;
+  clear: both; }
+fieldset.newSvsGiftCard ol.payWithNewGiftCard li.newGiftCardNumber {
+  width: auto;
+  position: relative; }
+fieldset.newSvsGiftCard ol.payWithNewGiftCard li.newGiftCardNumber label {
+  font-weight: bold; }
+fieldset.newSvsGiftCard ol.payWithNewGiftCard li.newGiftCardPin {
+  width: auto;
+  position: relative; }
+fieldset.newSvsGiftCard ol.payWithNewGiftCard li.newGiftCardPin label {
+  font-weight: bold; }
+fieldset.newSvsGiftCard ol.payWithNewGiftCard li.addNewGiftCardButton {
+  padding-top: 20px; }
+
+table.existingGiftCardList {
+  padding: 0 5px;
+  width: auto; }
+table.existingGiftCardList thead.existingCardHead tr.existingCardHeadRow th.existingCardHeadRowTh {
+  padding: 2px;
+  margin: 0;
+  vertical-align: middle; }
+table.existingGiftCardList thead.existingCardHead tr.existingCardHeadRow th.existingCardHeadRowTh label {
+  font-weight: bold; }
+table.existingGiftCardList thead.existingCardHead tr.existingCardHeadRow td.existingCardHeadRowTd.spaceExistingGcCell {
+  width: 36px; }
+table.existingGiftCardList tbody.existingCardBody tr.existingCardBodyRow td.existingCardBodyRowTd.spaceExistingGcCell {
+  width: 36px; }
+
+div.com-amazon-webstore-OrderPipelineReviewPageEmailSignUp-1 div.emailSignUp fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions {
+  overflow: hidden; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings {
+  overflow: hidden;
+  *zoom: 1;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings h2 {
+  margin-bottom: 18px;
+  clear: both;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems {
+  width: 60%;
+  float: left; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList {
+  padding-right: 18px;
+  border-right: 1px solid #cccccc;
+  margin-bottom: 18px;
+  margin-right: -1px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product.last {
+  margin-bottom: 0;
+  border-bottom: 0 none;
+  padding-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.priceBlock {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.attributeList {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.messageBox {
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.informationMessageBox {
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings {
+  border-left: 1px solid #cccccc;
+  padding-left: 18px;
+  margin-left: 60%; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.formField {
+  display: block; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.formField label {
+  float: none;
+  width: auto;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.formField .fieldHelp {
+  margin-left: 24px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.giftMessage {
+  overflow: hidden;
+  *zoom: 1;
+  border: 1px solid #cccccc;
+  padding: 9px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.giftMessage label {
+  margin-bottom: 18px;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.giftMessage .fieldHelp {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.giftMessage textarea {
+  width: 341px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.giftMessage .charactersLeftHelp {
+  float: right;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-2 div.giftOptions form ul.formControls {
+  float: right;
+  clear: both; }
+
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions {
+  overflow: hidden; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings {
+  overflow: hidden;
+  *zoom: 1;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings h2 {
+  margin-bottom: 18px;
+  clear: both;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems {
+  width: 60%;
+  float: left; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList {
+  padding-right: 18px;
+  border-right: 1px solid #cccccc;
+  margin-bottom: 18px;
+  margin-right: -1px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product.last {
+  margin-bottom: 0;
+  border-bottom: 0 none;
+  padding-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.priceBlock {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.attributeList {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.messageBox {
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.informationMessageBox {
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings {
+  border-left: 1px solid #cccccc;
+  padding-left: 18px;
+  margin-left: 60%; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.formField {
+  display: block; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.formField label {
+  float: none;
+  width: auto;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.formField .fieldHelp {
+  margin-left: 24px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.giftMessage {
+  overflow: hidden;
+  *zoom: 1;
+  border: 1px solid #cccccc;
+  padding: 9px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.giftMessage label {
+  margin-bottom: 18px;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.giftMessage .fieldHelp {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.giftMessage textarea {
+  width: 341px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsSettings fieldset ol.formFields li.giftMessage .charactersLeftHelp {
+  float: right;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-3 div.giftOptions form ul.formControls {
+  float: right;
+  clear: both; }
+
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions {
+  overflow: hidden; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings {
+  overflow: hidden;
+  *zoom: 1;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings h2 {
+  margin-bottom: 18px;
+  clear: both;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList {
+  padding-right: 18px;
+  margin-bottom: 18px;
+  border-right: none; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product img {
+  float: left;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product.last {
+  margin-bottom: 0;
+  border-bottom: 0 none;
+  padding-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.priceBlock {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.attributeList {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.messageBox {
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.productData {
+  float: left;
+  width: 25%; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.productData span.title {
+  display: block;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset {
+  overflow: hidden;
+  *zoom: 1;
+  padding-left: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields {
+  min-height: 54px;
+  overflow: hidden;
+  *zoom: 1;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftWrapYes {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftWrapNo {
+  width: 50%;
+  position: absolute;
+  top: 18px;
+  left: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage {
+  width: 50%;
+  float: right; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage p {
+  display: block;
+  padding-left: 0px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage textarea {
+  width: 98%;
+  height: 100px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage div.charactersLeftHelp {
+  float: right; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.informationMessageBox {
+  margin: 18px 0 0 0;
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-4 div.giftOptions form ul.formControls {
+  float: right;
+  clear: both; }
+
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions {
+  overflow: hidden; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings {
+  overflow: hidden;
+  *zoom: 1;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings h2 {
+  margin-bottom: 18px;
+  clear: both;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList {
+  padding-right: 18px;
+  margin-bottom: 18px;
+  border-right: none; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product img {
+  float: left;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product.last {
+  margin-bottom: 0;
+  border-bottom: 0 none;
+  padding-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.priceBlock {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.attributeList {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.messageBox {
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.productData {
+  float: left;
+  width: 25%; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.productData span.title {
+  display: block;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset {
+  overflow: hidden;
+  *zoom: 1;
+  padding-left: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields {
+  min-height: 54px;
+  overflow: hidden;
+  *zoom: 1;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftWrapYes {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftWrapNo {
+  width: 50%;
+  position: absolute;
+  top: 18px;
+  left: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage {
+  width: 50%;
+  float: right; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage p {
+  display: block;
+  padding-left: 0px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage textarea {
+  width: 98%;
+  height: 100px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage div.charactersLeftHelp {
+  float: right; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.informationMessageBox {
+  margin: 18px 0 0 0;
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-5 div.giftOptions form ul.formControls {
+  float: right;
+  clear: both; }
+
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions {
+  overflow: hidden; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings {
+  overflow: hidden;
+  *zoom: 1;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings h2 {
+  margin-bottom: 18px;
+  clear: both;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList {
+  padding-right: 18px;
+  margin-bottom: 18px;
+  border-right: none; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product img {
+  float: left;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product.last {
+  margin-bottom: 0;
+  border-bottom: 0 none;
+  padding-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.priceBlock {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.attributeList {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.messageBox {
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.productData {
+  float: left;
+  width: 25%; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.productData span.title {
+  display: block;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset {
+  overflow: hidden;
+  *zoom: 1;
+  padding-left: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields {
+  min-height: 54px;
+  overflow: hidden;
+  *zoom: 1;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftWrapYes {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftWrapNo {
+  width: 50%;
+  position: absolute;
+  top: 18px;
+  left: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage {
+  width: 50%;
+  float: right; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage p {
+  display: block;
+  padding-left: 0px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage textarea {
+  width: 98%;
+  height: 100px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage div.charactersLeftHelp {
+  float: right; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.informationMessageBox {
+  margin: 18px 0 0 0;
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-6 div.giftOptions form ul.formControls {
+  float: right;
+  clear: both; }
+
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions {
+  overflow: hidden; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings {
+  overflow: hidden;
+  *zoom: 1;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings h2 {
+  margin-bottom: 18px;
+  clear: both;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList {
+  padding-right: 18px;
+  margin-bottom: 18px;
+  border-right: none; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product {
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product img {
+  float: left;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product.last {
+  margin-bottom: 0;
+  border-bottom: 0 none;
+  padding-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.priceBlock {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails dl.attributeList {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.messageBox {
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.productData {
+  float: left;
+  width: 25%; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails div.productData span.title {
+  display: block;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset {
+  overflow: hidden;
+  *zoom: 1;
+  padding-left: 18px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields {
+  min-height: 54px;
+  overflow: hidden;
+  *zoom: 1;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftWrapYes {
+  width: 50%;
+  position: absolute;
+  top: 0;
+  left: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftWrapNo {
+  width: 50%;
+  position: absolute;
+  top: 18px;
+  left: 0; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage {
+  width: 50%;
+  float: right; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage p {
+  display: block;
+  padding-left: 0px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage textarea {
+  width: 98%;
+  height: 100px; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.productDetails fieldset ol.formFields li.giftMessage div.charactersLeftHelp {
+  float: right; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form div.giftOptionsItemsAndSettings div.giftOptionsItems ul.productList li.product div.informationMessageBox {
+  margin: 18px 0 0 0;
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+div.com-amazon-webstore-OrderPipelineItemGiftSelect-8 div.giftOptions form ul.formControls {
+  float: right;
+  clear: both; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails {
+  border: 1px solid #cccccc;
+  margin-bottom: 18px;
+  padding: 5px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset {
+  padding: 0 5px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingAddress {
+  width: 35%;
+  float: left;
+  border-right: 1px solid #cccccc;
+  margin: 0 9px 18px 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingAddress h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingAddress ul.buttonGroup.addressActions {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingSpeed {
+  margin: 0 0 18px 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label span.learnMore {
+  font-weight: normal;
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 0.833em; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li {
+  display: block;
+  list-style-type: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li img.radioOn {
+  vertical-align: bottom; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a {
+  text-decoration: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a img.falseRadio {
+  vertical-align: middle; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.singleSpeed .shipMethodLabel {
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 1.167em;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.multipleShipment {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.multipleShipment span.label {
+  float: left;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.giftOptions {
+  clear: both;
+  margin-top: 18px;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList dt {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset div.giftOptions ul.buttonGroup.giftActions {
+  position: absolute;
+  top: 0;
+  left: 162px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems {
+  clear: both;
+  padding: 0;
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 18px 0;
+  margin: 0;
+  border: 0 none;
+  border-top: 1px solid #cccccc;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails .title {
+  margin-right: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock {
+  position: absolute;
+  top: 18px;
+  right: 0px;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.unitPrice {
+  font-weight: bold;
+  float: none;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.unitPrice {
+  float: none;
+  width: 100px;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.itemTotal {
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-3 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.itemTotal {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails {
+  border: 1px solid #cccccc;
+  margin-bottom: 18px;
+  padding: 5px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset {
+  padding: 0 5px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingAddress {
+  width: 35%;
+  float: left;
+  border-right: 1px solid #cccccc;
+  margin: 0 9px 18px 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingAddress h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingAddress ul.buttonGroup.addressActions {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingSpeed {
+  margin: 0 0 18px 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label span.learnMore {
+  font-weight: normal;
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 0.833em; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li {
+  display: block;
+  list-style-type: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li img.radioOn {
+  vertical-align: bottom; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a {
+  text-decoration: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a img.falseRadio {
+  vertical-align: middle; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.singleSpeed .shipMethodLabel {
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 1.167em;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.multipleShipment {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.multipleShipment span.label {
+  float: left;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.giftOptions {
+  clear: both;
+  margin-top: 18px;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList dt {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.giftOptions ul.buttonGroup.giftActions {
+  position: absolute;
+  top: 0;
+  left: 162px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems {
+  clear: both;
+  padding: 0;
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 18px 0;
+  margin: 0;
+  border: 0 none;
+  border-top: 1px solid #cccccc;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails .title {
+  margin-right: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock {
+  position: absolute;
+  top: 18px;
+  right: 0px;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.unitPrice {
+  font-weight: bold;
+  float: none;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.unitPrice {
+  float: none;
+  width: 100px;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.itemTotal {
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.itemTotal {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dt.personalizedMessage {
+  font-weight: bold;
+  width: 100%;
+  padding-top: 9px; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset h3.deliveryDetails, div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset h3.yourItems {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.deliveryDate {
+  padding-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList dt.deliveryDate {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList dd.deliveryDate {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed {
+  padding-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList dt.shippingSpeed {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList dd.shippingSpeed {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList dt.giftWrap {
+  margin-top: 18px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-4 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList dd.giftWrap {
+  margin-top: 18px; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails {
+  border: 1px solid #cccccc;
+  margin-bottom: 18px;
+  padding: 5px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset {
+  padding: 0 5px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingAddress {
+  width: 35%;
+  float: left;
+  border-right: 1px solid #cccccc;
+  margin: 0 9px 18px 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingAddress h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingAddress ul.buttonGroup.addressActions {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingSpeed {
+  margin: 0 0 18px 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label span.learnMore {
+  font-weight: normal;
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 0.833em; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li {
+  display: block;
+  list-style-type: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li img.radioOn {
+  vertical-align: bottom; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a {
+  text-decoration: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a img.falseRadio {
+  vertical-align: middle; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.singleSpeed .shipMethodLabel {
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 1.167em;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.multipleShipment {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.multipleShipment span.label {
+  float: left;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.giftOptions {
+  clear: both;
+  margin-top: 18px;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList dt {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.giftOptions ul.buttonGroup.giftActions {
+  position: absolute;
+  top: 0;
+  left: 162px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems {
+  clear: both;
+  padding: 0;
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 18px 0;
+  margin: 0;
+  border: 0 none;
+  border-top: 1px solid #cccccc;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails .title {
+  margin-right: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock {
+  position: absolute;
+  top: 18px;
+  right: 0px;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.unitPrice {
+  font-weight: bold;
+  float: none;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.unitPrice {
+  float: none;
+  width: 100px;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.itemTotal {
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.itemTotal {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dt.personalizedMessage {
+  font-weight: bold;
+  width: 100%;
+  padding-top: 9px; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset h3.deliveryDetails, div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset h3.yourItems {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.deliveryDate {
+  padding-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList dt.deliveryDate {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList dd.deliveryDate {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed {
+  padding-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList dt.shippingSpeed {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList dd.shippingSpeed {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset dl.attributeList.orderEstimatedDates {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset dl.attributeList.orderEstimatedDates dt {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList dt.giftWrap {
+  margin-top: 18px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-5 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList dd.giftWrap {
+  margin-top: 18px; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails {
+  border: 1px solid #cccccc;
+  margin-bottom: 18px;
+  padding: 5px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset {
+  padding: 0 5px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingAddress {
+  width: 35%;
+  float: left;
+  border-right: 1px solid #cccccc;
+  margin: 0 9px 18px 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingAddress h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingAddress ul.buttonGroup.addressActions {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingSpeed {
+  margin: 0 0 18px 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label span.learnMore {
+  font-weight: normal;
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 0.833em; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li {
+  display: block;
+  list-style-type: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li img.radioOn {
+  vertical-align: bottom; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a {
+  text-decoration: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a img.falseRadio {
+  vertical-align: middle; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.singleSpeed .shipMethodLabel {
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 1.167em;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.multipleShipment {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.multipleShipment span.label {
+  float: left;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.giftOptions {
+  clear: both;
+  margin-top: 18px;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList dt {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.giftOptions ul.buttonGroup.giftActions {
+  position: absolute;
+  top: 0;
+  left: 162px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems {
+  clear: both;
+  padding: 0;
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 18px 0;
+  margin: 0;
+  border: 0 none;
+  border-top: 1px solid #cccccc;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails .title {
+  margin-right: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock {
+  position: absolute;
+  top: 18px;
+  right: 0px;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.unitPrice {
+  font-weight: bold;
+  float: none;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.unitPrice {
+  float: none;
+  width: 100px;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.itemTotal {
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.itemTotal {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dt.personalizedMessage {
+  font-weight: bold;
+  width: 100%;
+  padding-top: 9px; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset h3.deliveryDetails, div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset h3.yourItems {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.deliveryDate {
+  padding-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList dt.deliveryDate {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList dd.deliveryDate {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed {
+  padding-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList dt.shippingSpeed {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList dd.shippingSpeed {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset dl.attributeList.orderEstimatedDates {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset dl.attributeList.orderEstimatedDates dt {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList dt.giftWrap {
+  margin-top: 18px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-6 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList dd.giftWrap {
+  margin-top: 18px; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails {
+  border: 1px solid #cccccc;
+  margin-bottom: 18px;
+  padding: 5px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset {
+  padding: 0 5px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingAddress {
+  width: 35%;
+  float: left;
+  border-right: 1px solid #cccccc;
+  margin: 0 9px 18px 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingAddress h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingAddress ul.buttonGroup.addressActions {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingSpeed {
+  margin: 0 0 18px 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label span.learnMore {
+  font-weight: normal;
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 0.833em; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li {
+  display: block;
+  list-style-type: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li img.radioOn {
+  vertical-align: bottom; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a {
+  text-decoration: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a img.falseRadio {
+  vertical-align: middle; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.singleSpeed .shipMethodLabel {
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 1.167em;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.multipleShipment {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.multipleShipment span.label {
+  float: left;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.giftOptions {
+  clear: both;
+  margin-top: 18px;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList dt {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.giftOptions ul.buttonGroup.giftActions {
+  position: absolute;
+  top: 0;
+  left: 162px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems {
+  clear: both;
+  padding: 0;
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 18px 0;
+  margin: 0;
+  border: 0 none;
+  border-top: 1px solid #cccccc;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails .title {
+  margin-right: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock {
+  position: absolute;
+  top: 18px;
+  right: 0px;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.unitPrice {
+  font-weight: bold;
+  float: none;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.unitPrice {
+  float: none;
+  width: 100px;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.itemTotal {
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.itemTotal {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset h3.deliveryDetails, div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset h3.yourItems {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.deliveryDate {
+  padding-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList dt.deliveryDate {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.deliveryDate dl.attributeList dd.deliveryDate {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed {
+  padding-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList dt.shippingSpeed {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset div.selectedShippingSpeed dl.attributeList dd.shippingSpeed {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset dl.attributeList.orderEstimatedDates {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset dl.attributeList.orderEstimatedDates dt {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList dt.giftWrap {
+  margin-top: 18px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-7 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList dd.giftWrap {
+  margin-top: 18px; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails {
+  border: 1px solid #cccccc;
+  margin-bottom: 18px;
+  padding: 5px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset {
+  padding: 0 5px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingAddress {
+  width: 35%;
+  float: left;
+  border-right: 1px solid #cccccc;
+  margin: 0 9px 18px 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingAddress h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingAddress ul.buttonGroup.addressActions {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingSpeed {
+  margin: 0 0 18px 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label span.learnMore {
+  font-weight: normal;
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 0.833em; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li {
+  display: block;
+  list-style-type: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li img.radioOn {
+  vertical-align: bottom; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a {
+  text-decoration: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a img.falseRadio {
+  vertical-align: middle; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.singleSpeed .shipMethodLabel {
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 1.167em;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.multipleShipment {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.multipleShipment span.label {
+  float: left;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.giftOptions {
+  clear: both;
+  margin-top: 18px;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList dt {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset div.giftOptions ul.buttonGroup.giftActions {
+  position: absolute;
+  top: 0;
+  left: 162px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems {
+  clear: both;
+  padding: 0;
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 18px 0;
+  margin: 0;
+  border: 0 none;
+  border-top: 1px solid #cccccc;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails .title {
+  margin-right: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock {
+  position: absolute;
+  top: 18px;
+  right: 0px;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.unitPrice {
+  font-weight: bold;
+  float: none;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.unitPrice {
+  float: none;
+  width: 100px;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.itemTotal {
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-8 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.itemTotal {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right; }
+
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 div.messageBox.informationMessageBox label.datePickerLabel {
+  vertical-align: top; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails {
+  border: 1px solid #cccccc;
+  margin-bottom: 18px;
+  padding: 5px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset {
+  padding: 0 5px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingAddress {
+  width: 35%;
+  float: left;
+  border-right: 1px solid #cccccc;
+  margin: 0 9px 18px 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingAddress h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingAddress ul.buttonGroup.addressActions {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed {
+  margin: 0 0 18px 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label img.primeShipping {
+  vertical-align: text-bottom; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions h3.label span.learnMore {
+  font-weight: normal;
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 0.833em; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li {
+  width: 412px;
+  display: block;
+  list-style-type: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li img.radioOn {
+  vertical-align: bottom; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a {
+  text-decoration: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li a img.falseRadio {
+  vertical-align: middle; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.shippingOptions ul.buttonGroup.shippingSpeedActions li span.label span.fastTrackMessage {
+  color: #009900; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.singleSpeed .shipMethodLabel {
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 1.167em;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.shippingSpeed div.singleSpeed .shipMethodLabel img.primeShipping {
+  vertical-align: bottom; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.multipleShipment {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.multipleShipment span.label {
+  float: left;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.giftOptions {
+  clear: both;
+  margin-top: 18px;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.giftOptions dl.attributeList dt {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset div.giftOptions ul.buttonGroup.giftActions {
+  position: absolute;
+  top: 0;
+  left: 162px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems {
+  clear: both;
+  padding: 0;
+  margin: 18px 0 0 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 18px 0;
+  margin: 0;
+  border: 0 none;
+  border-top: 1px solid #cccccc;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem div.estimatedDelivery {
+  color: #e47911;
+  font-weight: bold;
+  margin-bottom: 0.3em; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails {
+  width: 560px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails .title {
+  margin-right: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList dt.primeItem {
+  display: none; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.attributeList dd.primeItem img {
+  vertical-align: bottom; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock {
+  position: absolute;
+  top: 36px;
+  right: 0px;
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.unitPrice {
+  font-weight: bold;
+  float: none;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.unitPrice {
+  float: none;
+  width: 100px;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dt.itemTotal {
+  font-weight: bold;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right;
+  padding: 0; }
+div.com-amazon-webstore-OrderPipelineOrderDetailsConfirm-9 ul.shipments li.shipmentDetails fieldset ul.productList.shipmentItems li.product.shipmentItem .productDetails dl.priceBlock dd.itemTotal {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100px;
+  text-align: right; }
+
+div.com-amazon-webstore-OrderPipelineOrderSummary-1 div.orderSummaryContainer {
+  padding-top: 9px;
+  padding-left: 5.143px;
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineOrderSummary-1 div.orderSummaryContainer dl.shippingInfo {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderSummary-1 div.orderSummaryContainer dl.shippingInfo dt.shippingSpeed {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderSummary-1 div.orderSummaryContainer dl.shippingInfo dd.shippingSpeed {
+  clear: both; }
+div.com-amazon-webstore-OrderPipelineOrderSummary-1 div.orderSummaryContainer div.shippingAddress {
+  margin-top: 12px; }
+div.com-amazon-webstore-OrderPipelineOrderSummary-1 div.orderSummaryContainer div.shippingAddress span.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineOrderSummary-1 div.orderSummaryContainer dl.priceBlock {
+  margin-top: 12px; }
+div.com-amazon-webstore-OrderPipelineOrderSummary-1 div.orderSummaryContainer dl.priceBlock dt.orderTotal {
+  font-weight: bold; }
+
+div.com-amazon-webstore-OrderPipelineOrderValue-1 div.orderTotal dl.priceBlock {
+  font-weight: bold; }
+
+div.com-amazon-webstore-OrderPipelineOrderTotals-1 td.promotionName {
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineOrderTotals-1 td.promoValue {
+  color: red; }
+
+div.com-amazon-webstore-OrderPipelineOrderTotals-2 div.orderSummary {
+  border: 1px solid #cccccc;
+  padding: 5px;
+  margin: 0 0 18px 0; }
+div.com-amazon-webstore-OrderPipelineOrderTotals-2 div.orderSummary dl.attributeList {
+  padding: 0 5px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineOrderTotals-2 div.orderSummary dl.attributeList dt.preTaxTotal {
+  margin-top: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderTotals-2 div.orderSummary dl.attributeList dt.orderTotal {
+  font-weight: bold;
+  margin-top: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderTotals-2 div.orderSummary dl.attributeList dd {
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineOrderTotals-2 div.orderSummary dl.attributeList dd.preTaxTotal {
+  margin-top: 9px; }
+div.com-amazon-webstore-OrderPipelineOrderTotals-2 div.orderSummary dl.attributeList dd.orderTotal {
+  font-weight: bold;
+  margin-top: 9px; }
+
+div.com-amazon-webstore-OrderPipelinePaymentMethodDisplay-3 {
+  border: 1px solid #cccccc;
+  padding: 5px;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelinePaymentMethodDisplay-3 div.confirmPaymentSection {
+  position: relative;
+  margin: 0 5px; }
+div.com-amazon-webstore-OrderPipelinePaymentMethodDisplay-3 div.confirmPaymentSection span.label {
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelinePaymentMethodDisplay-3 div.confirmPaymentSection div.briefCardInformation {
+  margin: 0 5px; }
+div.com-amazon-webstore-OrderPipelinePaymentMethodDisplay-3 div.confirmPaymentSection div.briefCardInformation img {
+  float: left;
+  margin-top: 5px; }
+div.com-amazon-webstore-OrderPipelinePaymentMethodDisplay-3 div.confirmPaymentSection div.briefCardInformation dl.attributeList {
+  margin-left: 51px;
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelinePaymentMethodDisplay-3 div.confirmPaymentSection div.briefCardInformation dl.attributeList dd span.descriptiveText {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelinePaymentMethodDisplay-3 div.confirmPaymentSection ul.buttonGroup {
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+div.com-amazon-webstore-OrderPipelinePaymentPagePromoCodeAndGc-2 div.promotionalCodes {
+  position: relative;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelinePaymentPagePromoCodeAndGc-2 div.promotionalCodes fieldset {
+  padding: 0 5px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelinePaymentPagePromoCodeAndGc-2 div.promotionalCodes fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelinePaymentPagePromoCodeAndGc-2 div.promotionalCodes fieldset ol.formFields li.promotionCode {
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelinePaymentPagePromoCodeAndGc-2 div.promotionalCodes fieldset ol.formFields li.promotionCode label {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelinePaymentPagePromoCodeAndGc-2 div.promotionalCodes fieldset ol.formFields li.promotionCode p.formHelp {
+  display: block;
+  padding: 0;
+  margin-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelinePaymentPagePromoCodeAndGc-2 div.promotionalCodes fieldset ol.formFields li.promotionCode input {
+  width: 199px; }
+
+div.com-amazon-webstore-OrderPipelinePlaceOrderLink-2 ul.buttonGroup li.placeOrder span.label {
+  font-weight: bold; }
+
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 button.primaryAction {
+  padding: 0 14px 0 0;
+  height: 25px;
+  line-height: 25px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 100% -120px;
+  background-image: url(/media/buttons/core/webstore_buttons_right.png); }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 button.primaryAction span {
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  padding: 0 0 0 14px;
+  height: 25px;
+  line-height: 25px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0 -120px;
+  background-image: url(/media/buttons/core/webstore_buttons_left.png); }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 button.primaryAction:hover, div.com-amazon-webstore-PrintOrderDetailsAOA-1 button.primaryAction:focus {
+  background-position: 100% -145px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 button.primaryAction:hover span, div.com-amazon-webstore-PrintOrderDetailsAOA-1 button.primaryAction:focus span {
+  background-position: 0 -145px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 button.primaryAction[disabled=disabled], div.com-amazon-webstore-PrintOrderDetailsAOA-1 button.primaryAction.disabled {
+  background-position: 100% -170px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 button.primaryAction[disabled=disabled] span, div.com-amazon-webstore-PrintOrderDetailsAOA-1 button.primaryAction.disabled span {
+  background-position: 0 -170px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 a.primaryAction {
+  padding: 0 14px 0 0;
+  height: 25px;
+  line-height: 25px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 100% -120px;
+  background-image: url(/media/buttons/core/webstore_buttons_right.png); }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 a.primaryAction span {
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  padding: 0 0 0 14px;
+  height: 25px;
+  line-height: 25px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0 -120px;
+  background-image: url(/media/buttons/core/webstore_buttons_left.png); }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 a.primaryAction:hover, div.com-amazon-webstore-PrintOrderDetailsAOA-1 a.primaryAction:focus {
+  background-position: 100% -145px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 a.primaryAction:hover span, div.com-amazon-webstore-PrintOrderDetailsAOA-1 a.primaryAction:focus span {
+  background-position: 0 -145px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 a.primaryAction.disabled {
+  background-position: 100% -170px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 a.primaryAction.disabled span {
+  background-position: 0 -170px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 div.printOrderLeft {
+  float: left;
+  width: 71%;
+  border: solid 1px #cccccc;
+  padding: 3px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 div.printOrderRight {
+  float: right;
+  width: 24%; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 .title {
+  font-weight: bold;
+  padding-right: 10px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 .boxStyle {
+  border: 1px solid #cccccc;
+  margin: 3px;
+  padding: 2px; }
+div.com-amazon-webstore-PrintOrderDetailsAOA-1 .barCode {
+  margin: 0 0 10px 0;
+  border: solid 1px #cccccc;
+  background: #fafafa;
+  padding: 10px; }
+
+div.com-amazon-webstore-OrderPipelineReviewPagePromoCodeAndGc-3 div.promotionalCodes {
+  border: 1px solid #cccccc;
+  padding: 5px;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineReviewPagePromoCodeAndGc-3 div.promotionalCodes fieldset {
+  padding: 0 5px;
+  margin: 0; }
+div.com-amazon-webstore-OrderPipelineReviewPagePromoCodeAndGc-3 div.promotionalCodes fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineReviewPagePromoCodeAndGc-3 div.promotionalCodes fieldset ol.formFields li.promotionCode {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineReviewPagePromoCodeAndGc-3 div.promotionalCodes fieldset ol.formFields li.promotionCode label {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineReviewPagePromoCodeAndGc-3 div.promotionalCodes fieldset ol.formFields li.promotionCode input {
+  width: 168px;
+  float: left; }
+div.com-amazon-webstore-OrderPipelineReviewPagePromoCodeAndGc-3 div.promotionalCodes fieldset ol.formFields li.promotionCode ul.promotionActions {
+  float: right; }
+div.com-amazon-webstore-OrderPipelineReviewPagePromoCodeAndGc-3 div.promotionalCodes fieldset ol.formFields li.promotionCode ul.promotionActions li.applyPromotions {
+  margin-right: 0; }
+div.com-amazon-webstore-OrderPipelineReviewPagePromoCodeAndGc-3 div.promotionalCodes fieldset ol.formFields li.promotionCode ul.promotionActions li.applyPromotions button#opl-ApplyPromoCodeOrGC {
+  padding: 0 10px 0 0; }
+div.com-amazon-webstore-OrderPipelineReviewPagePromoCodeAndGc-3 div.promotionalCodes fieldset ol.formFields li.promotionCode p.formHelp {
+  clear: both;
+  display: block;
+  margin: 0;
+  padding: 0; }
+
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment {
+  overflow: hidden;
+  *zoom: 1;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 18px;
+  display: block; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.productDetails {
+  float: left;
+  margin-left: 9px;
+  width: 40%; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.productDetails dl.priceBlock {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.productDetails dl.attributeList {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.productDetails div.errorMessageBox {
+  margin-top: 9px;
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.addressSelect {
+  float: right;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.addressSelect div.addressOptions {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.addressSelect div.addressOptions span.label {
+  float: left;
+  margin-right: 9px;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments ul.formControls {
+  float: right; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments ul.formControls li.setMultipleAddresses {
+  float: right; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-3 form.multipleShipments ul.formControls li.cancelMultipleAddresses {
+  float: right; }
+
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment {
+  overflow: hidden;
+  *zoom: 1;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 18px;
+  display: block; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment .productImage {
+  float: left; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.productDetails {
+  margin-left: 100px; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.productDetails {
+  float: left;
+  margin-left: 9px;
+  width: 40%; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.productDetails dl.priceBlock {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.productDetails dl.attributeList {
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.productDetails div.errorMessageBox {
+  margin-top: 9px;
+  margin-bottom: 0; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.addressSelect {
+  float: right;
+  text-align: right; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.addressSelect div.addressOptions {
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments fieldset.setMultipleShipments ol.multipleShipments li.product.multipleShipment div.addressSelect div.addressOptions span.label {
+  float: left;
+  margin-right: 9px;
+  font-weight: bold; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments ul.formControls {
+  float: right; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments ul.formControls li.setMultipleAddresses {
+  float: right; }
+div.com-amazon-webstore-OrderPipelineShipToMultipleAddress-4 form.multipleShipments ul.formControls li.cancelMultipleAddresses {
+  float: right; }
+
+div.com-amazon-webstore-OrderPipelineShippingAddressBook-2 div.addressBookContainer ul.buttonGroup.multipleAddressesActions li.shipToMultipleAddresses span.label {
+  font-weight: bold; }
+
+div.com-amazon-webstore-OrderPipelineShippingAddressBook-3 div.addressBookContainer ul.buttonGroup.multipleAddressesActions li.shipToMultipleAddresses span.label {
+  font-weight: bold; }
+
+div.com-amazon-webstore-OrderPipelineShippingAddressForm-4 form.addressForm fieldset ol.formFields li.useForBilling fieldset.minorFieldset ol.formFields {
+  position: absolute;
+  top: -2px; }
+
+div.com-amazon-webstore-OrderPipelineSignin-2 {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer {
+  float: left;
+  width: 457px;
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer p.haveAccountText {
+  margin-left: 9px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm {
+  margin-left: 9px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset .formComment.requiredDescription {
+  overflow: hidden;
+  *zoom: 1;
+  width: 20%;
+  padding-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField label {
+  float: left;
+  width: 20%;
+  text-align: left; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField input, div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField select, div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField textarea {
+  margin-left: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField p {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField p.formHelp {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField p.optional {
+  display: inline;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-left: 5px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ol.formFields li label {
+  width: 20%; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ul.buttonGroup.signInMainButtonGroup {
+  margin-left: 20%; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ul.buttonGroup.signInMainButtonGroup li {
+  display: block; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.existingCustomer form.signInMainForm fieldset ul.buttonGroup.signInMainButtonGroup li.forgotPasswordButton {
+  margin-bottom: 4.5px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer {
+  width: 457px;
+  margin-left: 495px;
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form {
+  margin-left: 9px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset .formComment.requiredDescription {
+  overflow: hidden;
+  *zoom: 1;
+  width: 20%;
+  padding-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset ol.formFields li.formField {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset ol.formFields li.formField label {
+  float: left;
+  width: 20%;
+  text-align: left; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset ol.formFields li.formField input, div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset ol.formFields li.formField select, div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset ol.formFields li.formField textarea {
+  margin-left: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset ol.formFields li.formField p {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset ol.formFields li.formField p.formHelp {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset ol.formFields li.formField p.optional {
+  display: inline;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-left: 5px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset ol.formFields li.formField label {
+  width: 20%; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.newCustomer form fieldset ul.buttonGroup.createAccountActions {
+  margin-left: 20%; }
+div.com-amazon-webstore-OrderPipelineSignin-2 div.verbiageSection {
+  clear: both;
+  padding-top: 18px; }
+
+div.com-amazon-webstore-OrderPipelineSignin-4 {
+  overflow: hidden;
+  *zoom: 1;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer {
+  float: left;
+  width: 457px;
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer p.haveAccountText {
+  margin-left: 9px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm {
+  margin-left: 9px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset .formComment.requiredDescription {
+  overflow: hidden;
+  *zoom: 1;
+  width: 20%;
+  padding-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField label {
+  float: left;
+  width: 20%;
+  text-align: left; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField input, div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField select, div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField textarea {
+  margin-left: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField p {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField p.formHelp {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField p.optional {
+  display: inline;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-left: 5px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li label {
+  width: 20%; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField.signInAgreeTermsFormField label {
+  float: right;
+  text-align: left;
+  width: 80%; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField.signInAgreeTermsFormField input {
+  margin-left: 15%;
+  top: 0px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ul.buttonGroup.signInMainButtonGroup {
+  margin-left: 20%; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ul.buttonGroup.signInMainButtonGroup li {
+  display: block; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.existingCustomer form.signInMainForm fieldset ul.buttonGroup.signInMainButtonGroup li.forgotPasswordButton {
+  margin-bottom: 4.5px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer {
+  width: 457px;
+  margin-left: 495px;
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form {
+  margin-left: 9px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset .formComment.requiredDescription {
+  overflow: hidden;
+  *zoom: 1;
+  width: 20%;
+  padding-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField label {
+  float: left;
+  width: 20%;
+  text-align: left; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField input, div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField select, div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField textarea {
+  margin-left: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField p {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField p.formHelp {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField p.optional {
+  display: inline;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-left: 5px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField label {
+  width: 20%; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField.createAnAccountAgreeTermsFormField label {
+  float: right;
+  text-align: left;
+  width: 80%; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ol.formFields li.formField.createAnAccountAgreeTermsFormField input {
+  margin-left: 15%;
+  top: 0px; }
+div.com-amazon-webstore-OrderPipelineSignin-4 div.newCustomer form fieldset ul.buttonGroup.createAccountActions {
+  margin-left: 20%; }
+
+div.com-amazon-webstore-OrderPipelineSignin-5 {
+  overflow: hidden;
+  *zoom: 1;
+  margin-bottom: 18px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer {
+  float: left;
+  width: 457px;
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer p.haveAccountText {
+  margin-left: 9px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form fieldset ol.formFields li.formField label {
+  width: 100%;
+  margin-left: 5%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm {
+  margin-left: 9px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset .formComment.requiredDescription {
+  overflow: hidden;
+  *zoom: 1;
+  width: 20%;
+  padding-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField label {
+  float: left;
+  width: 20%;
+  text-align: left; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField input, div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField select, div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField textarea {
+  margin-left: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField p {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField p.formHelp {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField p.optional {
+  display: inline;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-left: 5px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li label {
+  width: 20%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField input {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ol.formFields li.formField label {
+  width: 100%;
+  margin-left: 5%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ul.buttonGroup.signInMainButtonGroup {
+  margin-left: 0;
+  width: 100%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ul.buttonGroup.signInMainButtonGroup li {
+  display: block; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ul.buttonGroup.signInMainButtonGroup li.forgotPasswordButton {
+  margin-bottom: 4.5px;
+  margin-left: 5%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.existingCustomer form.signInMainForm fieldset ul.buttonGroup.signInMainButtonGroup li.signInButton {
+  text-align: center;
+  margin-top: 8%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer {
+  float: left;
+  width: 457px;
+  margin-left: 495px;
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 5px;
+  border-bottom: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form {
+  margin-left: 9px;
+  margin-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset .formComment.requiredDescription {
+  overflow: hidden;
+  *zoom: 1;
+  width: 20%;
+  padding-right: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ol.formFields li.formField {
+  overflow: hidden;
+  *zoom: 1; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ol.formFields li.formField label {
+  float: left;
+  width: 20%;
+  text-align: left; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ol.formFields li.formField input, div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ol.formFields li.formField select, div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ol.formFields li.formField textarea {
+  margin-left: 9px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ol.formFields li.formField p {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ol.formFields li.formField p.formHelp {
+  display: block;
+  margin-left: 0;
+  position: relative; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ol.formFields li.formField p.optional {
+  display: inline;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  padding-left: 5px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ol.formFields li.formField label {
+  width: 100%;
+  margin-left: 5%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ol.formFields li.formField input {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ul.buttonGroup.createAccountActions {
+  margin-left: 0;
+  width: 100%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.newCustomer form fieldset ul.buttonGroup.createAccountActions li.createAccountButton {
+  text-align: center;
+  margin-top: 8%;
+  display: block; }
+div.com-amazon-webstore-OrderPipelineSignin-5 .signInWithAmazonTextContainer {
+  margin-left: 3%;
+  margin-right: 3%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 ul.signInWithAmazonButtons {
+  list-style-position: inside;
+  width: 100%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 ul.signInWithAmazonButtons.buttonGroup li {
+  text-align: center;
+  display: block;
+  margin-bottom: 4%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 ul.signInWithAmazonButtons.buttonGroup li span {
+  min-width: 200px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 ul.signInWithAmazonButtons.buttonGroup li a.primaryAction {
+  border: 0;
+  text-align: center;
+  overflow: visible;
+  padding: 0 14px 0 0;
+  height: 22px;
+  line-height: 22px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 100% 0px;
+  background-image: url(/media/aap/buttons/core/aap_buttons_right.png);
+  color: #006;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1em; }
+div.com-amazon-webstore-OrderPipelineSignin-5 ul.signInWithAmazonButtons.buttonGroup li a.primaryAction span {
+  display: inline-block;
+  zoom: 1;
+  padding: 0 0 0 14px;
+  height: 22px;
+  line-height: 22px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0 0px;
+  background-image: url(/media/aap/buttons/core/aap_buttons_left.png); }
+div.com-amazon-webstore-OrderPipelineSignin-5 ul.signInWithAmazonButtons.buttonGroup li a.secondaryAction {
+  border: 0;
+  text-align: center;
+  overflow: visible;
+  padding: 0 14px 0 0;
+  height: 18px;
+  line-height: 18px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 100% -66px;
+  background-image: url(/media/aap/buttons/core/aap_buttons_right.png);
+  color: #006;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1em; }
+div.com-amazon-webstore-OrderPipelineSignin-5 ul.signInWithAmazonButtons.buttonGroup li a.secondaryAction span {
+  display: inline-block;
+  zoom: 1;
+  padding: 0 0 0 14px;
+  height: 18px;
+  line-height: 18px;
+  background-attachment: scroll;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: 0 -66px;
+  background-image: url(/media/aap/buttons/core/aap_buttons_left.png); }
+div.com-amazon-webstore-OrderPipelineSignin-5 div h2 {
+  text-align: center; }
+div.com-amazon-webstore-OrderPipelineSignin-5 form fieldset p.formComment {
+  text-align: center; }
+div.com-amazon-webstore-OrderPipelineSignin-5 .hasAap_true div.existingCustomer {
+  width: 31%;
+  margin: 0 1%;
+  min-height: 300px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 .hasAap_true div.newCustomer {
+  width: 31%;
+  margin: 0 1%;
+  min-height: 300px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 .hasAap_false div.existingCustomer {
+  width: 44%;
+  margin: 0 2%;
+  min-height: 250px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 .hasAap_false div.newCustomer {
+  width: 44%;
+  margin: 0 2%;
+  min-height: 250px; }
+div.com-amazon-webstore-OrderPipelineSignin-5 .hasAap_false div.signInWithAmazon {
+  display: none; }
+div.com-amazon-webstore-OrderPipelineSignin-5 .amazonAccountColumnListItem {
+  margin-bottom: 4%; }
+div.com-amazon-webstore-OrderPipelineSignin-5 .amazonAccountColumnListItem img {
+  vertical-align: top; }
+div.com-amazon-webstore-OrderPipelineSignin-5 .amazonAccountColumnList {
+  margin-bottom: 4%;
+  list-style-image: url(/media/common/green-check.png); }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.amazonAccountImg {
+  text-align: center; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.signInWithAmazon {
+  width: 31%;
+  margin: 0 1%;
+  min-height: 300px;
+  float: left;
+  border: 1px solid #cccccc; }
+div.com-amazon-webstore-OrderPipelineSignin-5 div.signInWithAmazon h2 {
+  color: #333333;
+  background-color: #cccccc;
+  font-weight: bold;
+  padding: 5px; }
+
+div.com-amazon-webstore-OrderPipeLineStoreAddressSearchResults-1 ol.storeAddresses li.storeAddress div.storeDetails span.storeOpeningHours table.storeResultsHours thead {
+  display: none; }
+div.com-amazon-webstore-OrderPipeLineStoreAddressSearchResults-1 ol.storeAddresses li.storeAddress div.storeDetails span.storeOpeningHours table.storeResultsHours tbody tr td {
+  padding-top: 0px;
+  padding-bottom: 0px; }
+div.com-amazon-webstore-OrderPipeLineStoreAddressSearchResults-1 ol.storeAddresses li.storeAddress div.storeDetails span.storeOpeningHours h4.openingHoursHeader {
+  background-image: url("/media/icons/collapse_button.gif");
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  padding-left: 12px; }
+div.com-amazon-webstore-OrderPipeLineStoreAddressSearchResults-1 ol.storeAddresses li.storeAddress div.storeDetails span.storeOpeningHours.collapseStoreOpeningHours h4.openingHoursHeader {
+  background-image: url("/media/icons/expand_button.gif");
+  background-position: 0 50%;
+  background-repeat: no-repeat;
+  padding-left: 12px; }
+div.com-amazon-webstore-OrderPipeLineStoreAddressSearchResults-1 ol.storeAddresses li.storeAddress div.storeDetails span.storeOpeningHours.collapseStoreOpeningHours table.storeResultsHours {
+  display: none; }
+
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock {
+  display: block;
+  clear: both;
+  width: 98%; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock div.enterCode {
+  float: left;
+  clear: none; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock div.gcImage {
+  float: right;
+  clear: right; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock div.labelCode {
+  float: left;
+  width: 140px;
+  text-align: center; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock div.labelPin {
+  float: left;
+  width: 100px;
+  text-align: center; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock div.gcPin input {
+  width: 100px;
+  text-align: center;
+  float: left;
+  clear: none; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock div.gcCode input {
+  width: 140px;
+  text-align: center;
+  float: left;
+  clear: none; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock div.checkBalance {
+  float: left;
+  clear: right; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock div.checkBalance a {
+  text-decoration: underline;
+  position: relative;
+  top: -10px;
+  background-image: url(../signin/arrow_privacy_policy.gif);
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+  padding-left: 10px; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock div.enterAnotherMsg a {
+  text-decoration: underline; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 .enterAnotherMsgDisplay {
+  display: block; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock div.gcDisclaimer {
+  float: left;
+  width: 400px;
+  margin-top: 10px; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 #giftCardBlock input {
+  margin: 0 0 5px 5px; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 div.gcEntry {
+  display: none; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 div#gcEntry-1 {
+  display: block; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 .removeLink {
+  display: block;
+  width: 50px;
+  left: 0px;
+  cursor: pointer; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 .chkBalLink {
+  position: relative;
+  top: -6px;
+  width: 50px; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 .noCardsBottomMargin {
+  padding-bottom: 30px; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-1 .gcEntry {
+  display: block;
+  clear: both;
+  padding-bottom: 40px; }
+
+div.com-amazon-webstore-OrderPipelineStoreValueCard-2 .egcCodes {
+  padding: 10px;
+  margin: 0px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-2 .egcCodes .egcCode {
+  float: left;
+  width: 168px; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-2 .egcCodes .egcPin {
+  width: 80px; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-2 .applyEGC .secondaryAction {
+  position: relative;
+  top: -30px;
+  left: 130px; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-2 .formField label {
+  white-space: nowrap; }
+div.com-amazon-webstore-OrderPipelineStoreValueCard-2 .egcCodes fieldset legend span {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+
+div.com-amazon-webstore-OrderPipelineThankYou-2 div.thankYouItemsByOrder p.orderId {
+  font-weight: bold;
+  margin-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineThankYou-2 div.thankYouItemsByOrder ul.thankYouItems {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineThankYou-2 div.orderDetails div.navigationLinks ul.linkList {
+  list-style-image: url(/media/common/carat-image.png); }
+div.com-amazon-webstore-OrderPipelineThankYou-2 div.orderDetails h2 {
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 1em; }
+div.com-amazon-webstore-OrderPipelineThankYou-2 p.contactCustomerService {
+  font-weight: bold;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #cccccc; }
+
+div.com-amazon-webstore-OrderPipelineThankYou-3 h1.thankYouMessage {
+  margin-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineThankYou-3 h3.orderConfirmation span.orderConfirmationMessage {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineThankYou-3 div.orderDetails ul.thankYouItems {
+  list-style: none;
+  padding: 0px; }
+div.com-amazon-webstore-OrderPipelineThankYou-3 div.orderDetails div.shippingAddress div.vcard {
+  margin-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineThankYou-3 div.orderDetails div.shippingAddress div.vcard div {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineThankYou-3 div.guestOrderInformation div.navigationLinks ul.linkList {
+  list-style-image: url(/media/common/carat-image.png); }
+div.com-amazon-webstore-OrderPipelineThankYou-3 div.guestOrderInformation h2 {
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 1em; }
+div.com-amazon-webstore-OrderPipelineThankYou-3 p.contactCustomerService {
+  font-weight: bold;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #cccccc; }
+
+div.com-amazon-webstore-OrderPipelineThankYou-4 h1.thankYouMessage {
+  margin-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineThankYou-4 h3.orderConfirmation span.orderConfirmationMessage {
+  position: absolute;
+  top: 0px;
+  left: -9999px; }
+div.com-amazon-webstore-OrderPipelineThankYou-4 div.orderDetails ul.thankYouItems {
+  list-style: none;
+  padding: 0px; }
+div.com-amazon-webstore-OrderPipelineThankYou-4 div.orderDetails div.shippingAddress div.vcard {
+  margin-bottom: 9px; }
+div.com-amazon-webstore-OrderPipelineThankYou-4 div.orderDetails div.shippingAddress div.vcard div {
+  display: inline; }
+div.com-amazon-webstore-OrderPipelineThankYou-4 div.guestOrderInformation div.navigationLinks ul.linkList {
+  list-style-image: url(/media/common/carat-image.png); }
+div.com-amazon-webstore-OrderPipelineThankYou-4 div.guestOrderInformation h2 {
+  display: moz-inline-box;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /* #{!parent_font_size} x #{!ems} = #{!pixels} */
+  font-size: 1em; }
+div.com-amazon-webstore-OrderPipelineThankYou-4 p.contactCustomerService {
+  font-weight: bold;
+  padding-bottom: 18px;
+  border-bottom: 1px solid #cccccc; }
+
+div.com-amazon-webstore-OrderPipelineUnapplyPromo-1 td.promotionName {
+  width: 200px; }
+div.com-amazon-webstore-OrderPipelineUnapplyPromo-1 td.promoValue {
+  color: red; }
